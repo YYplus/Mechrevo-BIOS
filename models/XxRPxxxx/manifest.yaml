@@ -22,4 +22,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "AMI UCP package previously analyzed; contains the 800x600 60-frame MECHREVO boot animation."
+    notes: "Internal series identifier: KUANGSHI-JIGUANG Series-X6xx55xW-B2. A copied user report states that MECHREVO customer support provided https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/XxRPxxxxN135MRO58_CAP.zip for a JIGUANG X Pro; retained as a customer-support association clue, not as a published compatibility list. The package contains the 800x600 60-frame MECHREVO boot animation."
