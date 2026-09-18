@@ -1,0 +1,60 @@
+name: Firmware submission
+description: Submit a BIOS/EC version, source, checksum, or compatibility report
+title: "[Firmware] "
+labels:
+  - firmware
+body:
+  - type: input
+    id: model
+    attributes:
+      label: MECHREVO model
+      placeholder: Exact model name
+    validations:
+      required: true
+
+  - type: dropdown
+    id: firmware_type
+    attributes:
+      label: Firmware type
+      options:
+        - BIOS
+        - EC
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: e.g. N.1.15MRO10
+    validations:
+      required: true
+
+  - type: input
+    id: filename
+    attributes:
+      label: Original filename
+      placeholder: Exact vendor filename
+
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+      placeholder: Official URL preferred
+
+  - type: input
+    id: sha256
+    attributes:
+      label: SHA-256
+      placeholder: 64-character lowercase SHA-256
+
+  - type: textarea
+    id: test
+    attributes:
+      label: Test / verification details
+      description: State whether the firmware was actually flashed on matching hardware, and provide current/previous BIOS and EC versions where possible.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
