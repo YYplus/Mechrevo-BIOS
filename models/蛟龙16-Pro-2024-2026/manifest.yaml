@@ -1,0 +1,27 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 蛟龙 16 Pro
+model_aliases:
+  - 蛟龙16 Pro
+  - 蛟龙16Pro
+  - Jiaolong 16 Pro
+chassis: unknown
+platform: X6DR5xxK
+notes: "Applies to MECHREVO Jiaolong 16 Pro models from 2024 through 2026."
+
+firmware:
+  - type: BIOS
+    version: N.1.40MRO56
+    release_date: unknown
+    original_filename: X6DR5xxKN140MRO56_CAP.EXE
+    file_size: unknown
+    sha256: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Applicable to Jiaolong 16 Pro 2024-2026 models."
