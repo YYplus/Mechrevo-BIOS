@@ -1,28 +1,29 @@
 # Metadata fields
 
-Each model uses a `manifest.yaml` file.
+Each model/platform directory contains a `manifest.yaml`.
 
 ## Model-level fields
 
-- `manufacturer`: normally `MECHREVO`.
-- `model`: exact public model name.
-- `model_aliases`: alternate names, if documented.
-- `chassis`: ODM/chassis identifier, or `unknown`.
-- `platform`: CPU/platform family, when useful and verified.
-- `notes`: concise model-level notes.
+- `manufacturer`: vendor name.
+- `model`: model or platform name.
+- `model_aliases`: alternate names.
+- `applicable_years`: model years when applicable.
+- `platform`: BIOS platform identifier.
+- `chassis`: chassis identifier when known.
 
 ## Firmware-level fields
 
 - `type`: `BIOS` or `EC`.
-- `version`: exact displayed/published version.
-- `release_date`: ISO date (`YYYY-MM-DD`) or `unknown`.
-- `original_filename`: exact vendor filename.
-- `file_size`: bytes, or `unknown`.
-- `sha256`: lowercase SHA-256 hex digest, or `unknown`.
-- `source_type`: `official`, `mirror`, `user-provided`, or `unknown`.
-- `source_url`: exact source URL when available.
-- `status`: one or more of `official`, `verified`, `tested`, `unverified`, `related`.
-- `tested_on`: matching hardware record if tested.
-- `paired_ec`: required/observed EC version, or `unknown`.
-- `paired_bios`: for EC records, corresponding BIOS if known.
-- `notes`: evidence-based notes only.
+- `version`: firmware version.
+- `release_date`: release date or `unknown`.
+- `original_filename`: original vendor filename.
+- `binary_path`: path of the archived firmware file in this repository.
+- `file_size`: file size in bytes when known.
+- `sha256`: recorded file digest when available.
+- `source_type`: source type such as `official`.
+- `source_url`: original source URL.
+- `status`: record status.
+- `tested_on`: hardware used for an actual flashing test, or `unknown`.
+- `paired_ec`: known EC pairing.
+- `paired_bios`: known BIOS pairing for an EC record.
+- `notes`: additional notes.
