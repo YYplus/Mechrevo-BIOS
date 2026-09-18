@@ -30,6 +30,7 @@ The following precautions and update steps are based on instructions provided by
 | [Yaoshi 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` (255H) / `N.1.07MRO12` (155H) | `1.09` (255H) / `unknown` (155H) |
 | [Yaoshi 16 Ultra (X6AR5xxx)](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
 | [Jiaolong 16 Pro (2024–2026)](models/蛟龙16-Pro-2024-2026/) | `N.1.40MRO56` | `unknown` |
+| [Da Jiaolong (2025, 9955HX + RTX 5070 Ti)](models/大蛟龙-2025-9955HX-5070Ti/) | `N.1.39MRO55` | `unknown` |
 | [Yilong 15 Pro (2024) / Jiaolong 16S (GMxHGxx)](models/GMxHGxx/) | `N.1.10MRO28` | `unknown` |
 | [XxRPxxxx platform (KUANGSHI / JIGUANG series)](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` |
 
