@@ -33,7 +33,7 @@ Each entry stores model/platform information, BIOS/EC versions, the official MEC
 
 ## Firmware files
 
-Official BIOS / EC firmware files are stored directly under each entry's `firmware/` directory. Original vendor filenames and official source URLs are preserved.
+Official BIOS / EC firmware files are stored under each entry's `firmware/` directory. Original vendor filenames and official source URLs are preserved. If the vendor site blocks automated downloads, the original file must be added manually.
 
 When adding firmware, keep the original vendor filename and do not modify the binary.
 
