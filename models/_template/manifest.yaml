@@ -1,3 +1,4 @@
+# Template manifest. Copy this directory when adding a new model.
 schema_version: 1
 
 manufacturer: MECHREVO
