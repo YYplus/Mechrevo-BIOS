@@ -30,7 +30,7 @@
 | [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` |
 | [耀世 16 Ultra（X6AR5xxx）](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
 | [蛟龙 16 Pro（2024–2026）](models/蛟龙16-Pro-2024-2026/) | `N.1.40MRO56` | `unknown` |
-| [翼龙 15 Pro（2024）](models/翼龙15-Pro-2024/) | `N.1.10MRO28` | `unknown` |
+| [翼龙 15 Pro（2024）/ 蛟龙 16S（GMxHGxx）](models/GMxHGxx/) | `N.1.10MRO28` | `unknown` |
 | [XxRPxxxx 平台（旷世 / 极光系列）](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` |
 
 ## 仓库结构
