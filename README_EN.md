@@ -1,42 +1,61 @@
-# Mechrevo BIOS
+# MECHREVO BIOS / EC Firmware Index
 
-Community-maintained index for MECHREVO BIOS/EC firmware information, official download sources, checksums, compatibility notes, and research records.
+[简体中文](README.md) | [English](README_EN.md)
+
+This is a community-maintained **MECHREVO BIOS / EC firmware index and archive**, covering BIOS and EC versions for different models, official download sources, file checksums, known compatibility information, and related maintenance records.
 
 > [!WARNING]
-> BIOS/EC flashing can render a device unbootable. Always verify the exact machine model, hardware configuration, firmware version, EC dependency, source, and checksum before flashing.
+> **Flashing BIOS / EC firmware carries a risk of making a device unbootable.**
+>
+> Before updating any firmware, verify:
+>
+> - the exact model and hardware configuration;
+> - the current BIOS / EC version;
+> - the target model for the firmware;
+> - whether the BIOS and EC have pairing requirements;
+> - the original firmware source;
+> - the file's SHA-256 checksum.
 
-## Project scope
+## What this repository maintains
 
-This repository is intended to maintain:
+This repository collects:
 
-- BIOS and EC version indexes for MECHREVO devices;
+- BIOS / EC versions for MECHREVO models;
 - official firmware download links and source records;
-- SHA-256 checksums and file metadata;
-- known BIOS/EC pairing information;
-- verified hardware/model applicability;
-- changelog and known-issue notes when evidence is available;
-- relationships between MECHREVO models and related ODM/chassis platforms;
-- small tools for checksum generation and metadata validation.
+- original filenames, file sizes, and SHA-256 checksums;
+- known BIOS / EC pairings;
+- real-device flashing verification records;
+- official changelogs and known issues;
+- chassis / ODM platform relationships between MECHREVO models;
+- relationships with same-chassis models from other brands;
+- firmware checksum and metadata validation tools.
 
-Modified firmware is out of scope for the initial version of this repository.
+The current focus is on **original vendor firmware**. Modified BIOS images are not maintained.
 
-## Repository status labels
+## Status labels
 
-| Label | Meaning |
+Each firmware record can use one or more of the following labels:
+
+| Status | Meaning |
 |---|---|
-| `official` | File or information originates from an official MECHREVO source. |
-| `verified` | Source and/or checksum has been independently checked. |
-| `tested` | A matching device has successfully used the firmware. |
-| `unverified` | Information has not yet been independently verified. |
-| `related` | Firmware/model appears related by chassis or ODM platform, but compatibility is not established. |
+| `official` | The file or information comes from an official MECHREVO source |
+| `verified` | The source, file, or checksum has been independently verified |
+| `tested` | The firmware has been flashed and verified on the corresponding model |
+| `unverified` | The information has not yet been independently verified |
+| `related` | Related to a model, chassis, or ODM platform, but firmware compatibility has not been established |
 
-`related` never means `compatible`.
+In particular:
 
-## Repository layout
+> **`related` ≠ `compatible`**
+
+For example, if a MECHREVO model uses the same chassis as an XMG, Tongfang, or other-brand model, that only establishes a platform relationship. It does not by itself establish that their BIOS firmware can be cross-flashed.
+
+## Repository structure
 
 ```text
 Mechrevo-BIOS/
 ├─ README.md
+├─ README_EN.md
 ├─ DISCLAIMER.md
 ├─ CONTRIBUTING.md
 ├─ LICENSE
@@ -59,35 +78,106 @@ Mechrevo-BIOS/
    └─ workflows/
 ```
 
-## Adding a model
+## Model and firmware records
 
-1. Copy `models/_template/` to `models/<model>/`.
-2. Fill in the model README with verified hardware/model information.
-3. Add firmware records to `manifest.yaml`.
-4. Record the original filename and source URL exactly as published.
-5. Generate a SHA-256 checksum for every archived or locally inspected file.
-6. Do not claim cross-model compatibility unless it has been independently established.
+Each model has its own directory:
 
-## Firmware binaries
+```text
+models/<model-name>/
+├─ README.md
+└─ manifest.yaml
+```
 
-The Git repository should primarily store metadata, documentation, checksums, and tools.
+A model page is mainly used to display:
 
-Firmware binaries should **not** be committed directly to Git by default. If redistribution is later determined to be appropriate, binary archives should preferably be attached to GitHub Releases and clearly identified as third-party firmware not covered by this repository's software license.
+- model name;
+- hardware platform;
+- chassis / ODM information;
+- BIOS version history;
+- EC version history;
+- BIOS / EC pairings;
+- official download sources;
+- known issues;
+- related same-chassis models.
 
-## Verification principle
+`manifest.yaml` stores structured firmware metadata for automated indexing and consistency checks.
 
-The project follows an evidence-first approach:
+## Firmware files
 
-- do not infer compatibility from similar filenames alone;
-- distinguish official source records from mirrors;
-- distinguish same-chassis relationships from actual firmware compatibility;
-- preserve original filenames and checksums;
-- mark unknown fields as `unknown` rather than guessing.
+The repository currently follows a **metadata-first** approach.
+
+Git history mainly stores:
+
+- firmware version information;
+- official download links;
+- original filenames;
+- SHA-256 checksums;
+- model applicability;
+- BIOS / EC pairings;
+- verification status;
+- documentation and tools.
+
+BIOS / EC binaries are **not committed directly to Git history by default**.
+
+If official firmware later becomes unavailable or difficult to obtain, and redistribution is considered appropriate, GitHub Releases should be preferred for archival rather than committing binaries directly to the repository.
+
+## SHA-256 verification
+
+Windows PowerShell:
+
+```powershell
+.\tools\checksum\sha256.ps1 "C:\path\to\firmware.exe"
+```
+
+Linux:
+
+```bash
+./tools/checksum/sha256.sh firmware.exe
+```
+
+Where possible, each firmware record should include a SHA-256 checksum so that files from different sources can be compared byte-for-byte.
+
+## Information verification
+
+This project follows an evidence-first approach:
+
+- do not infer compatibility from similar filenames;
+- do not infer cross-flash compatibility solely from a shared chassis;
+- clearly distinguish official sources from third-party mirrors;
+- preserve the vendor's original filename;
+- record SHA-256 whenever possible;
+- mark unconfirmed fields as `unknown`;
+- record user testing separately from official applicability information;
+- preserve supporting evidence for disputed or higher-risk compatibility claims.
+
+## Submitting BIOS / EC information
+
+New firmware information can be submitted through **Issues**.
+
+Please provide as much of the following as possible:
+
+- exact MECHREVO model;
+- BIOS or EC type;
+- firmware version;
+- original filename;
+- official download URL;
+- SHA-256;
+- whether it has been flashed on actual hardware;
+- BIOS / EC versions before and after flashing;
+- any other information that helps establish the source or model applicability.
+
+Unverified information may still be submitted, but please clearly identify which fields have not been verified.
 
 ## Disclaimer
 
-This is an independent community project and is not affiliated with MECHREVO or its related companies. See [DISCLAIMER.md](DISCLAIMER.md).
+This is an independent community project and is not affiliated with MECHREVO or its related companies.
+
+BIOS / EC updates carry risk. Users should independently verify the device model, firmware source, and applicability before flashing.
+
+See [DISCLAIMER.md](DISCLAIMER.md) for details.
 
 ## License
 
-Repository-authored code and documentation are licensed under the MIT License unless otherwise stated. Third-party firmware and vendor materials remain subject to their respective rights holders' terms.
+Repository-authored code and documentation are licensed under the MIT License by default.
+
+BIOS, EC firmware, flashing utilities, trademarks, and other third-party materials remain subject to the rights of their respective owners.
