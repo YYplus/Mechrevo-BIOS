@@ -1,19 +1,9 @@
-# Disclaimer
+# 免责声明
 
-This repository is an independent community-maintained project and is not affiliated with, endorsed by, or operated by MECHREVO or its related companies.
+[简体中文](DISCLAIMER.md) | [English](DISCLAIMER_EN.md)
 
-BIOS and EC firmware updates are inherently risky. Flashing an incorrect, incompatible, corrupted, or modified firmware image may cause boot failure, loss of functionality, data loss, or hardware that requires external recovery equipment.
+本仓库为独立社区维护项目，与机械革命（MECHREVO）及其关联公司不存在官方关系。
 
-Information in this repository is provided for firmware research, archival, troubleshooting, and maintenance. Before flashing any firmware, users should independently verify:
+BIOS / EC 固件更新存在风险，错误刷写可能导致设备无法启动或需要额外的恢复手段。使用仓库中的任何固件前，请自行确认机型、平台、版本及官方来源。
 
-- the exact device model and hardware configuration;
-- the current BIOS and EC versions;
-- the intended target model of the firmware;
-- BIOS/EC pairing requirements;
-- the original source of the file;
-- the file checksum;
-- any vendor-specific flashing instructions or prerequisites.
-
-A shared chassis, ODM platform, similar firmware filename, or similar version number does not by itself establish compatibility.
-
-Repository-authored documentation and tools may be licensed separately from third-party firmware. Firmware binaries, vendor utilities, logos, trademarks, and other vendor materials remain the property of their respective rights holders.
+仓库中保存的机械革命 BIOS、EC、刷写工具及其他厂商材料，其相关权利归对应权利人所有。
