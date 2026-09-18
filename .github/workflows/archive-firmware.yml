@@ -2,9 +2,6 @@ name: Archive official firmware
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - ".github/workflows/archive-firmware.yml"
 
 permissions:
   contents: write
