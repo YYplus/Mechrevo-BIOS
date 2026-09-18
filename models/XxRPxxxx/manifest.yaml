@@ -13,8 +13,8 @@ firmware:
     release_date: unknown
     original_filename: XxRPxxxxN135MRO58_CAP.EXE
     binary_path: firmware/XxRPxxxxN135MRO58_CAP.EXE
-    file_size: 10375
-    sha256: f6a12da7edb58314b4073a2a996bd6099c58316bd0978c97bb02a6a5b274aaa0
+    file_size: 10729168
+    sha256: f230b793db9ee9173db6308b44cec4a33232399a8687c631976f379ed083be12
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE"
     status:
