@@ -1,34 +1,17 @@
-# <MECHREVO model>
+# 机械革命 <机型或平台>
 
-## Device information
+[简体中文](README.md) | [English](README_EN.md)
 
-| Field | Value |
+## 机型信息
+
+| 项目 | 信息 |
 |---|---|
-| Manufacturer | MECHREVO |
-| Model | `<model>` |
-| Alternate model names | `unknown` |
-| Chassis / ODM | `unknown` |
-| Platform | `unknown` |
+| 机型 / 平台 | <名称> |
+| BIOS 平台 | `unknown` |
+| EC | `unknown` |
 
-## Firmware index
+## BIOS
 
-| Type | Version | Release date | Source | SHA-256 | Status |
-|---|---|---|---|---|---|
-| BIOS | `unknown` | `unknown` | `unknown` | `unknown` | `unverified` |
-| EC | `unknown` | `unknown` | `unknown` | `unknown` | `unverified` |
-
-## Known BIOS / EC pairings
-
-No verified pairing has been recorded yet.
-
-## Known issues
-
-None recorded.
-
-## Related models / chassis
-
-List related ODM/chassis models here only when supported by evidence. A related model is not automatically firmware-compatible.
-
-## Notes
-
-Add model-specific evidence and maintenance notes here.
+| 版本 | 文件 | 官方来源 |
+|---|---|---|
+| `unknown` | `unknown` | `unknown` |
