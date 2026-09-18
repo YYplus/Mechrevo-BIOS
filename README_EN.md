@@ -32,6 +32,12 @@ This repository collects:
 
 The current focus is on **original vendor firmware**. Modified BIOS images are not maintained.
 
+## Indexed models
+
+| Model | BIOS | EC | Record |
+|---|---|---|---|
+| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15A10`, `N.1.15MRO10` | `1.09` | Added |
+
 ## Status labels
 
 Each firmware record can use one or more of the following labels:
