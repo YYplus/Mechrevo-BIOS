@@ -1,21 +1,11 @@
 # Firmware binary policy
 
-The initial repository policy is metadata-first.
+Official MECHREVO BIOS / EC firmware may be stored directly in this repository.
 
-## Allowed in Git
+## Storage rules
 
-- Markdown documentation;
-- YAML/JSON metadata;
-- checksums;
-- small scripts;
-- links to official sources;
-- user-supplied factual compatibility reports.
-
-## Not committed by default
-
-- BIOS binaries;
-- EC binaries;
-- vendor flashing executables;
-- vendor packages containing copyrighted firmware.
-
-If binary redistribution is later adopted, files should preferably be attached to GitHub Releases rather than committed into Git history. Each release should contain source provenance, checksum information, model applicability, and a clear third-party-rights notice.
+- Keep the original vendor filename.
+- Place firmware under the matching model/platform `firmware/` directory.
+- Keep the original MECHREVO source URL in `manifest.yaml`.
+- Do not modify vendor firmware binaries before committing them.
+- Third-party firmware remains subject to the rights and terms of its respective rights holder.
