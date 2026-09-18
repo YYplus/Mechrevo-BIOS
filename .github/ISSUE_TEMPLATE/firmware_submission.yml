@@ -1,19 +1,19 @@
-name: Firmware submission
-description: Submit a BIOS/EC version, source, checksum, or compatibility report
+name: 固件提交
+description: 提交机械革命 BIOS / EC 版本、官方来源或适用机型信息
 title: "[Firmware] "
 body:
   - type: input
     id: model
     attributes:
-      label: MECHREVO model
-      placeholder: Exact model name
+      label: 机械革命机型
+      placeholder: 例如：耀世 15 Pro
     validations:
       required: true
 
   - type: dropdown
     id: firmware_type
     attributes:
-      label: Firmware type
+      label: 固件类型
       options:
         - BIOS
         - EC
@@ -23,36 +23,36 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
-      placeholder: e.g. N.1.15MRO10
+      label: 固件版本
+      placeholder: 例如：N.1.15MRO10
     validations:
       required: true
 
   - type: input
     id: filename
     attributes:
-      label: Original filename
-      placeholder: Exact vendor filename
+      label: 原始文件名
+      placeholder: 例如：X6AR45xUN115MRO10_CAP.EXE
 
   - type: input
     id: source
     attributes:
-      label: Source URL
-      placeholder: Official URL preferred
+      label: 官方下载地址
+      placeholder: 优先提供机械革命官方地址
 
   - type: input
-    id: sha256
+    id: platform
     attributes:
-      label: SHA-256
-      placeholder: 64-character lowercase SHA-256
+      label: 平台 / 适用年份
+      placeholder: 例如：X6AR45xU / 2024–2026
 
   - type: textarea
-    id: test
+    id: ec
     attributes:
-      label: Test / verification details
-      description: State whether the firmware was actually flashed on matching hardware, and provide current/previous BIOS and EC versions where possible.
+      label: EC / 配套信息
+      description: 如已知，请填写配套 EC 版本或其他相关信息。
 
   - type: textarea
     id: notes
     attributes:
-      label: Additional notes
+      label: 其他说明
