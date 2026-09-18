@@ -37,6 +37,7 @@
 | 机型 | BIOS | EC | 记录 |
 |---|---|---|---|
 | [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15A10`、`N.1.15MRO10` | `1.09` | 已录入 |
+| [XxRPxxxx 平台（旷世 / 极光系列）](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` | 已录入 |
 
 ## 状态说明
 
