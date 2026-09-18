@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [English](README_EN.md)
 
-This is a **community-maintained MECHREVO BIOS / EC firmware archive**, organized by model or BIOS platform, with official firmware sources and related version information.
+This is a **community-maintained MECHREVO BIOS / EC firmware archive**, organized by model or BIOS platform, with firmware sources and related version information.
 
 > [!WARNING]
 > **Flashing BIOS / EC firmware carries a risk of making the device unbootable.**
@@ -18,7 +18,7 @@ The following precautions and update steps are based on instructions provided by
 
 ## BIOS update steps
 
-1. After downloading the BIOS firmware package, right-click it and choose **Extract All**.
+1. If the download is an archive, right-click it and choose **Extract All** first. If the download is already a `.EXE` BIOS updater, proceed directly to the next step.
 2. Make sure the AC adapter is connected, then right-click the BIOS update application and choose **Run as administrator**.
 3. Wait for the progress in the updater window to complete, then enter **Y** when prompted to confirm the restart.
 4. The computer will restart automatically and complete the BIOS update. Do not use the keyboard or mouse, and do not disconnect power during the update. Wait until the process finishes and Windows starts again automatically.
@@ -42,16 +42,16 @@ models/
    ├─ README_EN.md
    ├─ manifest.yaml
    └─ firmware/
-      └─ <official-firmware-file>
+      └─ <firmware-file>
 ```
 
-Each entry stores model/platform information, BIOS/EC versions, the official MECHREVO source URL, and the corresponding official firmware file.
+Each entry stores model/platform information, BIOS/EC versions, the original MECHREVO source URL when known, and the archived firmware file.
 
 ## Firmware files
 
-Official BIOS / EC firmware files are stored under each entry's `firmware/` directory. Original vendor filenames and official source URLs are preserved. If the vendor site blocks automated downloads, the original file must be added manually.
+BIOS / EC firmware files are stored under each entry's `firmware/` directory with the original MECHREVO filename preserved. The original source URL is recorded when known.
 
-When adding firmware, keep the original vendor filename and do not modify the binary.
+Do not modify firmware binaries before committing them.
 
 ## Submitting BIOS / EC information
 
@@ -59,7 +59,7 @@ New firmware leads can be submitted through Issues. Useful information includes:
 
 - exact MECHREVO model;
 - BIOS / EC version;
-- official download URL;
+- official download URL, if available;
 - original filename;
 - applicable model year or platform;
 - known EC pairing information.
@@ -72,4 +72,4 @@ See [DISCLAIMER.md](DISCLAIMER.md) for details.
 
 ## License
 
-Repository-authored code and documentation are licensed under the MIT License. BIOS/EC firmware, vendor utilities, trademarks, and other third-party materials remain subject to the rights of their respective owners.
+Repository-authored code and documentation are licensed under the MIT License. MECHREVO BIOS/EC firmware, flashing utilities, trademarks, and other vendor materials remain subject to the rights of their respective owners.
