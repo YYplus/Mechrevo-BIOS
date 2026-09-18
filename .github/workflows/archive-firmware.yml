@@ -56,7 +56,7 @@ jobs:
 
           download "models/蛟龙16-Pro-2024-2026/firmware/X6DR5xxKN140MRO56_CAP.EXE"             "https://d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE"
 
-          download "models/翼龙15-Pro-2024/firmware/GMxHGxxN110MRO28_CAP.EXE"             "https://d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"
+          download "models/GMxHGxx/firmware/GMxHGxxN110MRO28_CAP.EXE"             "https://d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"
 
           download "models/XxRPxxxx/firmware/XxRPxxxxN135MRO58_CAP.EXE"             "https://d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE"
 
@@ -72,7 +72,7 @@ jobs:
               ("models/耀世15-Pro/manifest.yaml", "models/耀世15-Pro/firmware/X6AR45xUN115MRO10_CAP.EXE"),
               ("models/耀世16-Ultra-X6AR5xxx/manifest.yaml", "models/耀世16-Ultra-X6AR5xxx/firmware/X6AR5xxxN133MRO63_CAP.EXE"),
               ("models/蛟龙16-Pro-2024-2026/manifest.yaml", "models/蛟龙16-Pro-2024-2026/firmware/X6DR5xxKN140MRO56_CAP.EXE"),
-              ("models/翼龙15-Pro-2024/manifest.yaml", "models/翼龙15-Pro-2024/firmware/GMxHGxxN110MRO28_CAP.EXE"),
+              ("models/GMxHGxx/manifest.yaml", "models/GMxHGxx/firmware/GMxHGxxN110MRO28_CAP.EXE"),
               ("models/XxRPxxxx/manifest.yaml", "models/XxRPxxxx/firmware/XxRPxxxxN135MRO58_CAP.EXE"),
           ]
 
