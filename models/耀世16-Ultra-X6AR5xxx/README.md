@@ -15,4 +15,4 @@
 
 | 版本 | 文件 | 官方来源 |
 |---|---|---|
-| `N.1.33MRO63` | `X6AR5xxxN133MRO63_CAP.EXE` | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
+| `N.1.33MRO63` | [`X6AR5xxxN133MRO63_CAP.EXE`](firmware/X6AR5xxxN133MRO63_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
