@@ -14,7 +14,7 @@
 
 | Version | File | Official source |
 |---|---|---|
-| `N.1.15MRO10` | [`X6AR45xUN115MRO10_CAP.EXE`](firmware/X6AR45xUN115MRO10_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE) |
+| `N.1.15MRO10` | `X6AR45xUN115MRO10_CAP.EXE` | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE) |
 
 ## Known information
 
