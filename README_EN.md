@@ -38,6 +38,7 @@ The current focus is on **original vendor firmware**. Modified BIOS images are n
 |---|---|---|---|
 | [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` | Added |
 | [XxRPxxxx platform (KUANGSHI / JIGUANG Series)](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` | Added |
+| [Yaoshi 16 Ultra (X6AR5xxx)](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` | Added |
 
 ## Status labels
 
