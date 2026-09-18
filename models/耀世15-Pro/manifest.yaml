@@ -21,7 +21,6 @@ firmware:
     original_filename: X6AR45xUN115MRO10_CAP.EXE
     binary_path: firmware/X6AR45xUN115MRO10_CAP.EXE
     file_size: 8112832
-    sha256: 3faa66aff97a503d3a59b88db46b2fa0d03cb5f5f8c9a84faacaabe43ed88037
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE"
     status:
@@ -41,7 +40,6 @@ firmware:
     original_filename: XxMT4xxxN107MRO12_CAP.EXE
     binary_path: firmware/XxMT4xxxN107MRO12_CAP.EXE
     file_size: 7858288
-    sha256: unknown
     source_type: user-provided
     source_url: unknown
     status:
@@ -58,7 +56,6 @@ firmware:
     original_filename: unknown
     binary_path: unknown
     file_size: unknown
-    sha256: unknown
     source_type: unknown
     source_url: unknown
     status:
