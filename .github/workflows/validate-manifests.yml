@@ -1,14 +1,16 @@
-name: Validate manifests
+name: Validate repository
 
 on:
   push:
     paths:
-      - "models/**/manifest.yaml"
+      - "models/**"
       - "tools/validate/**"
+      - ".github/workflows/validate-manifests.yml"
   pull_request:
     paths:
-      - "models/**/manifest.yaml"
+      - "models/**"
       - "tools/validate/**"
+      - ".github/workflows/validate-manifests.yml"
 
 permissions:
   contents: read
