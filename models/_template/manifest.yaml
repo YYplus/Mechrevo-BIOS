@@ -1,20 +1,19 @@
-# Template manifest. Copy this directory when adding a new model.
+# Copy this directory when adding a new model or platform.
 schema_version: 1
 
 manufacturer: MECHREVO
 model: unknown
 model_aliases: []
-chassis: unknown
 platform: unknown
-notes: ""
+chassis: unknown
 
 firmware:
   - type: BIOS
     version: unknown
     release_date: unknown
     original_filename: unknown
+    binary_path: unknown
     file_size: unknown
-    sha256: unknown
     source_type: unknown
     source_url: unknown
     status:
@@ -28,8 +27,8 @@ firmware:
     version: unknown
     release_date: unknown
     original_filename: unknown
+    binary_path: unknown
     file_size: unknown
-    sha256: unknown
     source_type: unknown
     source_url: unknown
     status:
