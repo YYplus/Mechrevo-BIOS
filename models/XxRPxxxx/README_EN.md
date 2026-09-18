@@ -16,7 +16,7 @@
 
 | Version | File | Official source |
 |---|---|---|
-| `N.1.35MRO58` | [`XxRPxxxxN135MRO58_CAP.EXE`](firmware/XxRPxxxxN135MRO58_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE) |
+| `N.1.35MRO58` | `XxRPxxxxN135MRO58_CAP.EXE` | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE) |
 
 ## Known information
 
