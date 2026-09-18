@@ -4,15 +4,15 @@ manufacturer: MECHREVO
 model: 耀世 15 Pro
 model_aliases:
   - 耀世15 Pro
-chassis: unknown
 platform: X6AR45xU
-notes: "Previously processed and verified on the user's machine."
+chassis: unknown
 
 firmware:
   - type: BIOS
     version: N.1.15MRO10
     release_date: unknown
     original_filename: X6AR45xUN115MRO10_CAP.EXE
+    binary_path: firmware/X6AR45xUN115MRO10_CAP.EXE
     file_size: unknown
     sha256: unknown
     source_type: official
@@ -24,21 +24,21 @@ firmware:
     tested_on: "MECHREVO 耀世 15 Pro"
     paired_ec: "1.09"
     paired_bios: null
-    notes: "Processed package. Internal platform identifier: X6AR45xU; $FID: X6AR45xUNd."
+    notes: "Internal $FID: X6AR45xUNd."
 
   - type: EC
     version: "1.09"
     release_date: unknown
     original_filename: unknown
+    binary_path: unknown
     file_size: unknown
     sha256: unknown
-    source_type: official
+    source_type: unknown
     source_url: unknown
     status:
-      - official
       - tested
     tested_on: "MECHREVO 耀世 15 Pro"
     paired_ec: null
     paired_bios:
       - N.1.15MRO10
-    notes: "Confirmed in actual use with N.1.15MRO10."
+    notes: ""
