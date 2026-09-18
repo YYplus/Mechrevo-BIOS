@@ -1,0 +1,29 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: "GMxHGxx platform (翼龙 15 Pro / 蛟龙 16S)"
+model_aliases:
+  - 翼龙 15 Pro
+  - 翼龙15 Pro
+  - 翼龙15Pro
+  - 蛟龙 16S
+  - 蛟龙16S
+platform: GMxHGxx
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: N.1.10MRO28
+    release_date: unknown
+    original_filename: GMxHGxxN110MRO28_CAP.EXE
+    binary_path: firmware/GMxHGxxN110MRO28_CAP.EXE
+    file_size: unknown
+    sha256: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Applicable to MECHREVO 翼龙 15 Pro (2024) and 蛟龙 16S."
