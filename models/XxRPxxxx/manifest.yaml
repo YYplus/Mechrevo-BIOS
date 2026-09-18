@@ -4,15 +4,15 @@ manufacturer: MECHREVO
 model: "XxRPxxxx platform (KUANGSHI / JIGUANG Series)"
 model_aliases:
   - "KUANGSHI-JIGUANG Series-X6xx55xW-B2"
-chassis: "X6xx55xW-B2"
 platform: XxRPxxxx
-notes: "Platform-level record. Exact retail SKU is not yet resolved."
+chassis: X6xx55xW-B2
 
 firmware:
   - type: BIOS
     version: N.1.35MRO58
     release_date: unknown
     original_filename: XxRPxxxxN135MRO58_CAP.EXE
+    binary_path: firmware/XxRPxxxxN135MRO58_CAP.EXE
     file_size: 10729168
     sha256: unknown
     source_type: official
@@ -23,4 +23,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "AMI UCP package previously analyzed. @ROM SHA-256: 514cce8bceb61fb57b8d3fdb15ef55fb41dd55555e3b72e9a3e2dba51dc2e16d. Contains the newer 800x600 60-frame MECHREVO boot animation."
+    notes: "AMI UCP package previously analyzed; contains the 800x600 60-frame MECHREVO boot animation."
