@@ -1,42 +1,65 @@
-# Mechrevo BIOS
+# 机械革命 BIOS / EC 固件索引
 
-Community-maintained index for MECHREVO BIOS/EC firmware information, official download sources, checksums, compatibility notes, and research records.
+[简体中文](README.md) | [English](README_EN.md)
+
+这是一个由社区维护的 **机械革命（MECHREVO）BIOS / EC 固件索引与归档项目**，用于整理不同机型的 BIOS、EC 版本信息、官方下载来源、文件校验值、已知兼容关系和相关维护记录。
+
+本项目的目标不是提供“万能刷机包”，而是尽可能建立一个**来源可追溯、版本关系清晰、兼容性结论有依据**的机械革命固件资料库。
 
 > [!WARNING]
-> BIOS/EC flashing can render a device unbootable. Always verify the exact machine model, hardware configuration, firmware version, EC dependency, source, and checksum before flashing.
+> **刷写 BIOS / EC 存在导致设备无法启动的风险。**
+>
+> 在进行任何固件更新前，请务必确认：
+>
+> - 具体机型与硬件配置；
+> - 当前 BIOS / EC 版本；
+> - 固件对应的目标机型；
+> - BIOS 与 EC 是否存在配套要求；
+> - 固件原始来源；
+> - 文件 SHA-256 校验值。
+>
+> 同模具、同平台、文件名相似或版本号接近，**均不能单独作为固件兼容的依据**。
 
-## Project scope
+## 项目维护内容
 
-This repository is intended to maintain:
+本仓库计划长期整理：
 
-- BIOS and EC version indexes for MECHREVO devices;
-- official firmware download links and source records;
-- SHA-256 checksums and file metadata;
-- known BIOS/EC pairing information;
-- verified hardware/model applicability;
-- changelog and known-issue notes when evidence is available;
-- relationships between MECHREVO models and related ODM/chassis platforms;
-- small tools for checksum generation and metadata validation.
+- 机械革命各机型 BIOS / EC 版本；
+- 官方固件下载地址及来源记录；
+- 固件原始文件名、文件大小与 SHA-256；
+- BIOS 与 EC 的已知配套关系；
+- 实际刷写验证记录；
+- 官方更新日志与已知问题；
+- 不同机械革命机型之间的模具 / ODM 平台关系；
+- 与其他品牌同模具机型的关联信息；
+- 固件校验和元数据检查工具。
 
-Modified firmware is out of scope for the initial version of this repository.
+当前阶段以**原厂固件资料整理**为主，不维护修改版 BIOS。
 
-## Repository status labels
+## 状态说明
 
-| Label | Meaning |
+每条固件记录可以带有以下状态：
+
+| 状态 | 含义 |
 |---|---|
-| `official` | File or information originates from an official MECHREVO source. |
-| `verified` | Source and/or checksum has been independently checked. |
-| `tested` | A matching device has successfully used the firmware. |
-| `unverified` | Information has not yet been independently verified. |
-| `related` | Firmware/model appears related by chassis or ODM platform, but compatibility is not established. |
+| `official` | 文件或信息来自机械革命官方来源 |
+| `verified` | 来源、文件或校验值已经独立核实 |
+| `tested` | 已在对应机型上实际刷写并验证 |
+| `unverified` | 信息暂未完成独立核实 |
+| `related` | 与某机型 / 模具 / ODM 平台存在关联，但尚未证明固件兼容 |
 
-`related` never means `compatible`.
+特别注意：
 
-## Repository layout
+> **`related` ≠ `compatible`**
+
+例如某款机械革命与 XMG、Tongfang 或其他品牌机型使用相同模具，只能说明它们存在平台关联，不能直接得出 BIOS 可以互刷的结论。
+
+## 仓库结构
 
 ```text
 Mechrevo-BIOS/
 ├─ README.md
+├─ README_EN.md
 ├─ DISCLAIMER.md
 ├─ CONTRIBUTING.md
 ├─ LICENSE
@@ -44,7 +67,7 @@ Mechrevo-BIOS/
 │  ├─ _template/
 │  │  ├─ README.md
 │  │  └─ manifest.yaml
-│  └─ <model>/
+│  └─ <机型>/
 │     ├─ README.md
 │     └─ manifest.yaml
 ├─ docs/
@@ -59,35 +82,106 @@ Mechrevo-BIOS/
    └─ workflows/
 ```
 
-## Adding a model
+## 机型与固件记录
 
-1. Copy `models/_template/` to `models/<model>/`.
-2. Fill in the model README with verified hardware/model information.
-3. Add firmware records to `manifest.yaml`.
-4. Record the original filename and source URL exactly as published.
-5. Generate a SHA-256 checksum for every archived or locally inspected file.
-6. Do not claim cross-model compatibility unless it has been independently established.
+每个机型单独建立目录，例如：
 
-## Firmware binaries
+```text
+models/<机型名称>/
+├─ README.md
+└─ manifest.yaml
+```
 
-The Git repository should primarily store metadata, documentation, checksums, and tools.
+机型页面主要用于展示：
 
-Firmware binaries should **not** be committed directly to Git by default. If redistribution is later determined to be appropriate, binary archives should preferably be attached to GitHub Releases and clearly identified as third-party firmware not covered by this repository's software license.
+- 机型名称；
+- 硬件平台；
+- 模具 / ODM 信息；
+- BIOS 版本历史；
+- EC 版本历史；
+- BIOS / EC 配套关系；
+- 官方下载来源；
+- 已知问题；
+- 相关同模具机型。
 
-## Verification principle
+`manifest.yaml` 则用于保存结构化固件元数据，方便后续自动生成索引和进行一致性检查。
 
-The project follows an evidence-first approach:
+## 固件文件
 
-- do not infer compatibility from similar filenames alone;
-- distinguish official source records from mirrors;
-- distinguish same-chassis relationships from actual firmware compatibility;
-- preserve original filenames and checksums;
-- mark unknown fields as `unknown` rather than guessing.
+目前仓库采用 **metadata-first（元数据优先）** 的维护方式。
 
-## Disclaimer
+Git 历史中主要保存：
 
-This is an independent community project and is not affiliated with MECHREVO or its related companies. See [DISCLAIMER.md](DISCLAIMER.md).
+- 固件版本信息；
+- 官方下载链接；
+- 原始文件名；
+- SHA-256；
+- 机型适用信息；
+- BIOS / EC 配套关系；
+- 验证状态；
+- 文档与工具。
+
+BIOS / EC 二进制文件默认**不直接提交到 Git 历史**。
+
+如果未来需要保存已经失效或难以获取的官方固件，并确认适合重新分发，优先考虑使用 GitHub Releases 单独归档，而不是直接提交到仓库。
+
+## SHA-256 校验
+
+Windows PowerShell：
+
+```powershell
+.\tools\checksum\sha256.ps1 "C:\path\to\firmware.exe"
+```
+
+Linux：
+
+```bash
+./tools/checksum/sha256.sh firmware.exe
+```
+
+建议任何固件记录都尽可能保留 SHA-256，以便确认不同来源的文件是否完全一致。
+
+## 信息核验原则
+
+本项目采用“证据优先”的维护原则：
+
+- 不根据相似文件名推测兼容性；
+- 不根据同模具关系直接推断 BIOS 可以互刷；
+- 官方来源和第三方镜像明确区分；
+- 保留厂商原始文件名；
+- 尽可能记录 SHA-256；
+- 无法确认的信息统一标记为 `unknown`；
+- 用户实测与官方适配信息分别记录；
+- 对存在风险或争议的兼容性结论保留证据来源。
+
+## 如何提交新的 BIOS / EC 信息
+
+可以通过仓库的 **Issues** 提交新的固件记录。
+
+建议至少提供：
+
+- 机械革命具体机型；
+- BIOS 或 EC 类型；
+- 固件版本；
+- 原始文件名；
+- 官方下载地址；
+- SHA-256；
+- 是否实际刷写；
+- 刷写前后的 BIOS / EC 版本；
+- 其他能够证明来源或适配关系的信息。
+
+如果信息暂时无法确认，也可以提交，但请明确标记哪些内容尚未验证。
+
+## 免责声明
+
+本项目为独立社区项目，与机械革命（MECHREVO）及其关联公司不存在官方关系。
+
+BIOS / EC 更新具有风险，任何刷写操作都应由使用者自行核对设备型号、固件来源和兼容性。
+
+详细内容请参阅 [DISCLAIMER.md](DISCLAIMER.md)。
 
 ## License
 
-Repository-authored code and documentation are licensed under the MIT License unless otherwise stated. Third-party firmware and vendor materials remain subject to their respective rights holders' terms.
+仓库自行编写的代码与文档默认采用 MIT License。
+
+机械革命及其他厂商的 BIOS、EC、刷写工具、商标和其他第三方材料，其权利仍归对应权利人所有。
