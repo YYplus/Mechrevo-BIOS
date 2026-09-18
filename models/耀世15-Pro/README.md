@@ -12,11 +12,11 @@
 
 ## BIOS / EC 记录
 
-| 类型 | 版本 | 日期 | 原始文件名 | 状态 | 备注 |
-|---|---|---|---|---|---|
-| BIOS | `N.1.15A10` | `unknown` | `unknown` | `tested` | 已在本机实际使用；EC 为 1.09 |
-| BIOS | `N.1.15MRO10` | 2026-04-17 | `X6AR45xUN115MRO10_CAP.EXE` | `verified`, `tested` | 已处理并验证；固件内部平台标识为 `X6AR45xU` |
-| EC | `1.09` | `unknown` | `unknown` | `tested` | 与上述两版 BIOS 均有实际使用记录 |
+| 类型 | 版本 | 日期 | 原始文件名 | 官方下载 | 状态 | 备注 |
+|---|---|---|---|---|---|---|
+| BIOS | `N.1.15A10` | `unknown` | `unknown` | `unknown` | `tested` | 已在本机实际使用；EC 为 1.09 |
+| BIOS | `N.1.15MRO10` | `unknown` | `X6AR45xUN115MRO10_CAP.EXE` | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE) | `official`, `verified`, `tested` | 已处理并验证；平台标识为 `X6AR45xU` |
+| EC | `1.09` | `unknown` | `unknown` | `unknown` | `tested` | 与上述两版 BIOS 均有实际使用记录 |
 
 ## 已知 BIOS / EC 配套
 
@@ -27,10 +27,16 @@
 
 ## N.1.15MRO10 已知信息
 
-已处理的固件包：
+官方固件包：
 
 ```text
 X6AR45xUN115MRO10_CAP.EXE
+```
+
+官方直链：
+
+```text
+https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE
 ```
 
 已确认：
