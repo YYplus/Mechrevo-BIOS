@@ -1,0 +1,29 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 大蛟龙
+model_aliases:
+  - 大蛟龙 2025
+  - 2025款大蛟龙
+applicable_years: "2025"
+platform: X6FR55xx
+chassis: unknown
+hardware:
+  cpu: Ryzen 9 9955HX
+  gpu: GeForce RTX 5070 Ti
+
+firmware:
+  - type: BIOS
+    version: N.1.39MRO55
+    release_date: unknown
+    original_filename: X6FR55xxN139MRO55_CAP.EXE
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2025/TBIOS/X6FR55xxN139MRO55_CAP.EXE"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Only for the 2025 MECHREVO 大蛟龙 configuration with Ryzen 9 9955HX + GeForce RTX 5070 Ti."
