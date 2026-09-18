@@ -1,0 +1,39 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: unknown
+model_aliases: []
+chassis: unknown
+platform: unknown
+notes: ""
+
+firmware:
+  - type: BIOS
+    version: unknown
+    release_date: unknown
+    original_filename: unknown
+    file_size: unknown
+    sha256: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - unverified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: ""
+
+  - type: EC
+    version: unknown
+    release_date: unknown
+    original_filename: unknown
+    file_size: unknown
+    sha256: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - unverified
+    tested_on: unknown
+    paired_ec: null
+    paired_bios: unknown
+    notes: ""
