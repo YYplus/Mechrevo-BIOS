@@ -1,0 +1,104 @@
+name: Archive official firmware
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/archive-firmware.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download official firmware
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          download() {
+            local dest="$1"
+            local url="$2"
+            mkdir -p "$(dirname "$dest")"
+            echo "Downloading $(basename "$dest")"
+            curl --fail --location               --retry 4 --retry-delay 3 --retry-all-errors               --connect-timeout 30 --max-time 600               --user-agent "Mozilla/5.0"               "$url" -o "$dest"
+            test -s "$dest"
+          }
+
+          download "models/耀世15-Pro/firmware/X6AR45xUN115MRO10_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE"
+
+          download "models/耀世16-Ultra-X6AR5xxx/firmware/X6AR5xxxN133MRO63_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE"
+
+          download "models/蛟龙16-Pro-2024-2026/firmware/X6DR5xxKN140MRO56_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE"
+
+          download "models/翼龙15-Pro-2024/firmware/GMxHGxxN110MRO28_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"
+
+          download "models/XxRPxxxx/firmware/XxRPxxxxN135MRO58_CAP.EXE"             "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE"
+
+      - name: Update file metadata
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import os
+          import re
+
+          pairs = [
+              ("models/耀世15-Pro/manifest.yaml", "models/耀世15-Pro/firmware/X6AR45xUN115MRO10_CAP.EXE"),
+              ("models/耀世16-Ultra-X6AR5xxx/manifest.yaml", "models/耀世16-Ultra-X6AR5xxx/firmware/X6AR5xxxN133MRO63_CAP.EXE"),
+              ("models/蛟龙16-Pro-2024-2026/manifest.yaml", "models/蛟龙16-Pro-2024-2026/firmware/X6DR5xxKN140MRO56_CAP.EXE"),
+              ("models/翼龙15-Pro-2024/manifest.yaml", "models/翼龙15-Pro-2024/firmware/GMxHGxxN110MRO28_CAP.EXE"),
+              ("models/XxRPxxxx/manifest.yaml", "models/XxRPxxxx/firmware/XxRPxxxxN135MRO58_CAP.EXE"),
+          ]
+
+          for manifest_name, binary_name in pairs:
+              manifest = Path(manifest_name)
+              binary = Path(binary_name)
+
+              size = binary.stat().st_size
+              h = hashlib.sha256()
+              with binary.open("rb") as f:
+                  for chunk in iter(lambda: f.read(1024 * 1024), b""):
+                      h.update(chunk)
+              digest = h.hexdigest()
+
+              text = manifest.read_text(encoding="utf-8")
+              text = re.sub(
+                  r"^(    file_size:) .*$",
+                  rf"\1 {size}",
+                  text,
+                  count=1,
+                  flags=re.MULTILINE,
+              )
+              text = re.sub(
+                  r"^(    sha256:) .*$",
+                  rf"\1 {digest}",
+                  text,
+                  count=1,
+                  flags=re.MULTILINE,
+              )
+              manifest.write_text(text, encoding="utf-8")
+              print(binary_name, size, digest)
+          PY
+
+      - name: Commit archived firmware
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add models/*/firmware models/*/manifest.yaml
+
+          if git diff --cached --quiet; then
+            echo "No firmware changes to commit."
+            exit 0
+          fi
+
+          git commit -m "firmware: archive official BIOS packages"
+          git push
