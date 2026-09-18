@@ -40,6 +40,7 @@
 | [XxRPxxxx 平台（旷世 / 极光系列）](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` | 已录入 |
 | [耀世 16 Ultra（X6AR5xxx）](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` | 已录入 |
 | [蛟龙 16 Pro（2024–2026）](models/蛟龙16-Pro-2024-2026/) | `N.1.40MRO56` | `unknown` | 已录入 |
+| [翼龙 15 Pro（2024）](models/翼龙15-Pro-2024/) | `N.1.10MRO28` | `unknown` | 已录入 |
 
 ## 状态说明
 
