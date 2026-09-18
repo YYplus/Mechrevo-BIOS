@@ -1,11 +1,8 @@
-# Firmware binary policy
+# 固件文件规则
 
-Official MECHREVO BIOS / EC firmware may be stored directly in this repository.
+本仓库仅归档机械革命（MECHREVO）BIOS / EC 固件。
 
-## Storage rules
-
-- Keep the original vendor filename.
-- Place firmware under the matching model/platform `firmware/` directory.
-- Keep the original MECHREVO source URL in `manifest.yaml`.
-- Do not modify vendor firmware binaries before committing them.
-- Third-party firmware remains subject to the rights and terms of its respective rights holder.
+- 固件统一放在对应机型或平台的 `firmware/` 目录中。
+- 保留机械革命原始文件名，不对固件二进制进行修改。
+- 官方来源地址已知时，在 `manifest.yaml` 中记录；未知时使用 `unknown`。
+- `manifest.yaml` 中的 `binary_path` 和 `file_size` 应与仓库中的实际文件一致。
