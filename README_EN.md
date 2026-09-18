@@ -66,9 +66,11 @@ New firmware leads can be submitted through Issues. Useful information includes:
 
 ## Disclaimer
 
-This is an independent community project and is not affiliated with MECHREVO or its related companies.
+This is an independent community project and is not affiliated with MECHREVO or its related companies, and it does not represent official MECHREVO technical support.
 
-See [DISCLAIMER.md](DISCLAIMER.md) for details.
+Flashing BIOS / EC firmware is a high-risk operation. Before using firmware from this repository, verify the model, hardware variant, platform, and firmware version, and retain important data and the BitLocker recovery key. Users assume the risks associated with flashing, upgrading, or downgrading firmware.
+
+See [DISCLAIMER.md](DISCLAIMER.md) for the full disclaimer.
 
 ## License
 
