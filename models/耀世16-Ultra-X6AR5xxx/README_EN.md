@@ -15,4 +15,4 @@
 
 | Version | File | Official source |
 |---|---|---|
-| `N.1.33MRO63` | `X6AR5xxxN133MRO63_CAP.EXE` | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
+| `N.1.33MRO63` | [`X6AR5xxxN133MRO63_CAP.EXE`](firmware/X6AR5xxxN133MRO63_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
