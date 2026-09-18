@@ -53,9 +53,6 @@ def validate_manifest(path: Path) -> tuple[list[str], set[str]]:
             errors.append(f"{prefix} must be a mapping")
             continue
 
-        if "sha256" in item:
-            errors.append(f"{prefix}.sha256 is deprecated and must be removed")
-
         if item.get("type") not in ALLOWED_TYPES:
             errors.append(f"{prefix}.type must be BIOS or EC")
 
