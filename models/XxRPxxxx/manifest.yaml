@@ -4,6 +4,8 @@ manufacturer: MECHREVO
 model: "XxRPxxxx platform (KUANGSHI / JIGUANG Series)"
 model_aliases:
   - "KUANGSHI-JIGUANG Series-X6xx55xW-B2"
+known_models:
+  - 极光 X Pro
 platform: XxRPxxxx
 chassis: X6xx55xW-B2
 
@@ -22,4 +24,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Internal series identifier: KUANGSHI-JIGUANG Series-X6xx55xW-B2. A copied user report states that MECHREVO customer support provided https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/XxRPxxxxN135MRO58_CAP.zip for a JIGUANG X Pro; retained as a customer-support association clue, not as a published compatibility list. The package contains the 800x600 60-frame MECHREVO boot animation."
+    notes: "Known model: 极光 X Pro. Internal series identifier: KUANGSHI-JIGUANG Series-X6xx55xW-B2. The package contains the 800x600 60-frame MECHREVO boot animation."
