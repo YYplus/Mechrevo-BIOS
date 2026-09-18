@@ -16,7 +16,7 @@
 
 | 版本 | 文件 | 官方来源 |
 |---|---|---|
-| `N.1.35MRO58` | `XxRPxxxxN135MRO58_CAP.EXE` | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE) |
+| `N.1.35MRO58` | [`XxRPxxxxN135MRO58_CAP.EXE`](firmware/XxRPxxxxN135MRO58_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_RPLRefresh/XxRPxxxxN135MRO58_CAP.EXE) |
 
 ## 已知信息
 
