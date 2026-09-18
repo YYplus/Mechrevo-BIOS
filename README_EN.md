@@ -2,10 +2,26 @@
 
 [简体中文](README.md) | [English](README_EN.md)
 
-A community-maintained archive of official MECHREVO BIOS / EC firmware, organized by model or BIOS platform.
+This is a **community-maintained MECHREVO BIOS / EC firmware archive**, organized by model or BIOS platform, with official firmware sources and related version information.
 
 > [!WARNING]
-> BIOS / EC flashing carries risk. Confirm the model, firmware version, and target platform before updating.
+> **Flashing BIOS / EC firmware carries a risk of making the device unbootable.**
+>
+> Confirm the model, firmware version, and target platform before updating, and keep the device on stable AC power throughout the process.
+
+## BIOS update precautions
+
+The following precautions and update steps are based on instructions provided by MECHREVO customer support.
+
+1. A BIOS update may trigger BitLocker recovery-key verification. Before updating, make sure you know the Microsoft account used to sign in to Windows. You may also disable Device Encryption beforehand. In Windows 11, go to **Start → Settings → Privacy & security → Device encryption**, or search for “Device encryption” from Windows Search.
+2. Before running the BIOS updater, exit third-party PC management, security, or protection software to avoid conflicts or blocking.
+
+## BIOS update steps
+
+1. After downloading the BIOS firmware package, right-click it and choose **Extract All**.
+2. Make sure the AC adapter is connected, then right-click the BIOS update application and choose **Run as administrator**.
+3. Wait for the progress in the updater window to complete, then enter **Y** when prompted to confirm the restart.
+4. The computer will restart automatically and complete the BIOS update. Do not use the keyboard or mouse, and do not disconnect power during the update. Wait until the process finishes and Windows starts again automatically.
 
 ## Indexed models
 
