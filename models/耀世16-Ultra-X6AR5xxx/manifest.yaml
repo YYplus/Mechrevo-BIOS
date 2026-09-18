@@ -14,8 +14,8 @@ firmware:
     release_date: unknown
     original_filename: X6AR5xxxN133MRO63_CAP.EXE
     binary_path: firmware/X6AR5xxxN133MRO63_CAP.EXE
-    file_size: unknown
-    sha256: unknown
+    file_size: 10370
+    sha256: 51d95c8a895e32a4d2e3a08e4ffa202e9ee85ba6ab68205a90fc80abe733695a
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE"
     status:

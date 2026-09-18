@@ -15,8 +15,8 @@ firmware:
     release_date: unknown
     original_filename: X6DR5xxKN140MRO56_CAP.EXE
     binary_path: firmware/X6DR5xxKN140MRO56_CAP.EXE
-    file_size: unknown
-    sha256: unknown
+    file_size: 10371
+    sha256: a035e6517847dafa0d424e7321f5bcaf2641822391232907bcad3aa43781de60
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE"
     status:

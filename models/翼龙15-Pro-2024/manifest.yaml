@@ -15,8 +15,8 @@ firmware:
     release_date: unknown
     original_filename: GMxHGxxN110MRO28_CAP.EXE
     binary_path: firmware/GMxHGxxN110MRO28_CAP.EXE
-    file_size: unknown
-    sha256: unknown
+    file_size: 10370
+    sha256: cc645f78e4711e09eb5967c54e3938269e1999b48575c039692899ea4057e82e
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE"
     status:
