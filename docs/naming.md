@@ -1,32 +1,25 @@
-# Naming convention
+# 命名规则
 
-## Model directories
+## 机型 / 平台目录
 
-Use the public model name where possible.
+优先使用公开机型名称；同一 BIOS 同时适用于多个机型时，可使用 BIOS 平台标识建立共享目录。
 
-Recommended format:
-
-```text
-models/<model-name>/
-```
-
-If a model name contains characters unsuitable for paths, normalize only what is necessary and record the exact marketing/model name inside the model README.
-
-## Firmware records
-
-Preserve the vendor's original firmware filename exactly in `original_filename`.
-
-For local archival naming, use:
+示例：
 
 ```text
-<model>_<type>_<version>_<date-if-known>.<ext>
+models/耀世15-Pro/
+models/GMxHGxx/
 ```
 
-Examples:
+## 固件文件
+
+固件文件始终保留机械革命原始文件名，不进行重新命名。
+
+示例：
 
 ```text
-MODEL_BIOS_N.1.15MRO10_2026-08-01.exe
-MODEL_EC_1.09_unknown.bin
+models/耀世15-Pro/firmware/X6AR45xUN115MRO10_CAP.EXE
+models/GMxHGxx/firmware/GMxHGxxN110MRO28_CAP.EXE
 ```
 
-Do not silently rename the original file without preserving its original name in metadata.
+`manifest.yaml` 中的 `original_filename` 必须与实际归档文件名一致。
