@@ -30,7 +30,7 @@ The following precautions and update steps are based on instructions provided by
 | [Yaoshi 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` |
 | [Yaoshi 16 Ultra (X6AR5xxx)](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
 | [Jiaolong 16 Pro (2024–2026)](models/蛟龙16-Pro-2024-2026/) | `N.1.40MRO56` | `unknown` |
-| [Yilong 15 Pro (2024)](models/翼龙15-Pro-2024/) | `N.1.10MRO28` | `unknown` |
+| [Yilong 15 Pro (2024) / Jiaolong 16S (GMxHGxx)](models/GMxHGxx/) | `N.1.10MRO28` | `unknown` |
 | [XxRPxxxx platform (KUANGSHI / JIGUANG series)](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` |
 
 ## Repository layout
