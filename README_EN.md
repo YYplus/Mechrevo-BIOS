@@ -36,7 +36,7 @@ The current focus is on **original vendor firmware**. Modified BIOS images are n
 
 | Model | BIOS | EC | Record |
 |---|---|---|---|
-| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15A10`, `N.1.15MRO10` | `1.09` | Added |
+| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` | Added |
 | [XxRPxxxx platform (KUANGSHI / JIGUANG Series)](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` | Added |
 
 ## Status labels
