@@ -5,17 +5,15 @@ model: 耀世 16 Ultra
 model_aliases:
   - 耀世16 Ultra
   - 耀世16Ultra
-  - Yaoshi 16 Ultra
-  - MECHREVO YAOSHI 16 Ultra
-chassis: unknown
 platform: X6AR5xxx
-notes: "Intel Arrow Lake-HX platform. Platform-level record for the X6AR5xxx family."
+chassis: unknown
 
 firmware:
   - type: BIOS
     version: N.1.33MRO63
     release_date: unknown
     original_filename: X6AR5xxxN133MRO63_CAP.EXE
+    binary_path: firmware/X6AR5xxxN133MRO63_CAP.EXE
     file_size: unknown
     sha256: unknown
     source_type: official
@@ -25,4 +23,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Official MECHREVO GX_IntelARL package. Whole-file size and SHA-256 have not yet been recorded."
+    notes: ""
