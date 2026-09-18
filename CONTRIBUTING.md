@@ -1,35 +1,19 @@
-# Contributing
+# 贡献说明
 
-Contributions are welcome when they improve the accuracy and traceability of the firmware index.
+[简体中文](CONTRIBUTING.md) | [English](CONTRIBUTING_EN.md)
 
-## Evidence requirements
+欢迎补充机械革命 BIOS / EC 固件和机型信息。
 
-Please provide as much of the following as possible:
+提交新固件时，尽量提供：
 
-- exact MECHREVO model name;
-- chassis/ODM identifier if known;
-- BIOS version;
-- EC version;
-- original firmware filename;
-- official source URL or archived source information;
-- release date if documented;
-- SHA-256 checksum;
-- whether the firmware was actually tested on matching hardware;
-- screenshots or vendor release notes when useful.
+- 具体机型；
+- BIOS / EC 版本；
+- 原始文件名；
+- 机械革命官方下载地址；
+- 适用年份或平台；
+- 已知的 EC 配套信息；
+- 官方固件原文件。
 
-Unknown information should be written as `unknown`. Do not infer missing facts.
+官方固件二进制可以直接提交到对应机型或平台目录下的 `firmware/` 文件夹，并保留厂商原始文件名。
 
-## Compatibility claims
-
-Do not mark firmware as compatible with another model merely because:
-
-- the filename looks similar;
-- the BIOS version string is similar;
-- the devices appear to use the same chassis;
-- another brand sells a visually similar machine.
-
-Cross-model compatibility should only be documented when there is reliable evidence.
-
-## Binary submissions
-
-Do not open a pull request containing firmware binaries unless the repository policy explicitly permits it. Prefer metadata, checksums, source links, and release records.
+无法确认的信息可以填写为 `unknown`。
