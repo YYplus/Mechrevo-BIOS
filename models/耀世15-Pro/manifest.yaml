@@ -27,12 +27,12 @@ firmware:
 
   - type: BIOS
     version: N.1.15MRO10
-    release_date: 2026-04-17
+    release_date: unknown
     original_filename: X6AR45xUN115MRO10_CAP.EXE
     file_size: unknown
     sha256: unknown
     source_type: official
-    source_url: unknown
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE"
     status:
       - official
       - verified
