@@ -1,0 +1,20 @@
+# Firmware binaries are intentionally excluded from normal Git history.
+*.bin
+*.rom
+*.cap
+*.fd
+*.efi
+*.exe
+*.zip
+*.7z
+*.rar
+
+# Python
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
