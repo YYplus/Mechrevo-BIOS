@@ -1,8 +1,6 @@
 name: Firmware submission
 description: Submit a BIOS/EC version, source, checksum, or compatibility report
 title: "[Firmware] "
-labels:
-  - firmware
 body:
   - type: input
     id: model
