@@ -15,4 +15,4 @@
 
 | 版本 | 文件 | 官方来源 |
 |---|---|---|
-| `N.1.40MRO56` | [`X6DR5xxKN140MRO56_CAP.EXE`](firmware/X6DR5xxKN140MRO56_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE) |
+| `N.1.40MRO56` | `X6DR5xxKN140MRO56_CAP.EXE` | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE) |
