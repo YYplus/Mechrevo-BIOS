@@ -1,0 +1,32 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 耀世 16 Ultra / 旷世 X
+model_aliases:
+  - 耀世 16 Ultra
+  - 耀世16 Ultra
+  - 耀世16Ultra
+  - 旷世 X
+  - 旷世X
+known_models:
+  - 耀世 16 Ultra
+  - "旷世 X (Core Ultra 7 255HX + RTX 5060 Laptop)"
+platform: X6AR5xxx
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: N.1.33MRO63
+    release_date: unknown
+    original_filename: X6AR5xxxN133MRO63_CAP.EXE
+    binary_path: firmware/X6AR5xxxN133MRO63_CAP.EXE
+    file_size: 10561088
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE"
+    status:
+      - official
+      - verified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Shared X6AR5xxx BIOS for MECHREVO Yaoshi 16 Ultra and Kuangshi X (Core Ultra 7 255HX + RTX 5060 Laptop); a successful update on the Kuangshi X configuration has been reported."

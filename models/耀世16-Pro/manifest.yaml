@@ -1,0 +1,28 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 耀世 16 Pro
+model_aliases:
+  - 耀世16 Pro
+  - 耀世16Pro
+platform: GMxIX7x
+chassis: GM6IX7B
+known_models:
+  - "耀世 16 Pro (Intel Core i7-14650HX, GM6IX7B)"
+
+firmware:
+  - type: BIOS
+    version: N.1.07MRO15
+    release_date: unknown
+    original_filename: GMxIX7xN107MRO15_CAP.EXE
+    binary_path: firmware/GMxIX7xN107MRO15_CAP.EXE
+    file_size: 10943584
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX7xN107MRO15_CAP.EXE"
+    status:
+      - official
+      - tested
+    tested_on: "MECHREVO 耀世 16 Pro; Intel Core i7-14650HX; motherboard GM6IX7B (screenshot report)"
+    paired_ec: unknown
+    paired_bios: null
+    notes: "BIOS date shown in system information: 2026-11-06. Original BIOS binary archived in firmware/."

@@ -1,0 +1,25 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 蛟龙 16K
+model_aliases:
+  - 蛟龙16K
+  - 蛟龙16k
+platform: unknown
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: N.1.26MRO24
+    release_date: unknown
+    original_filename: BIOS_N1.26MRO24.zip
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/BIOS/BIOS_N1.26MRO24.zip"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Version from official ZIP filename. BIOS platform unknown; original ZIP not yet archived."

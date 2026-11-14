@@ -1,0 +1,27 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 旷世 16 Pro
+model_aliases:
+  - 旷世16 Pro
+  - 旷世16Pro
+platform: GMxPX7x
+chassis: GM6PX0X
+known_models:
+  - "旷世 16 Pro (Intel Core i9-13900HX + GeForce RTX 4060, motherboard GM6PX0X)"
+
+firmware:
+  - type: BIOS
+    version: N.1.09MRO15
+    release_date: unknown
+    original_filename: GMxPX7xN109MRO15_CAP.EXE
+    binary_path: firmware/GMxPX7xN109MRO15_CAP.EXE
+    file_size: 9218320
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_10L/GMxPX7xN109MRO15_CAP.EXE"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Official MECHREVO BIOS link supplied for Kuangshi 16 Pro i9-13900HX + RTX 4060, motherboard GM6PX0X. Firmware filename prefix GMxPX7x. Binary archived in firmware/."

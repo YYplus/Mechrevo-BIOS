@@ -1,0 +1,27 @@
+name: Validate repository
+
+on:
+  push:
+    paths:
+      - "models/**"
+      - "tools/validate/**"
+      - ".github/workflows/validate-manifests.yml"
+  pull_request:
+    paths:
+      - "models/**"
+      - "tools/validate/**"
+      - ".github/workflows/validate-manifests.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - run: pip install pyyaml
+      - run: python tools/validate/validate_manifest.py

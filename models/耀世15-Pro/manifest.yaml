@@ -1,0 +1,67 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 耀世 15 Pro
+model_aliases:
+  - 耀世15 Pro
+platform: "X6AR45xU / XxMT4xxx"
+chassis: unknown
+variants:
+  - name: 255H
+    platform: X6AR45xU
+  - name: 155H
+    platform: XxMT4xxx
+
+firmware:
+  - type: BIOS
+    variant: 255H
+    platform: X6AR45xU
+    version: N.1.15MRO10
+    release_date: unknown
+    original_filename: X6AR45xUN115MRO10_CAP.EXE
+    binary_path: firmware/X6AR45xUN115MRO10_CAP.EXE
+    file_size: 8112832
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE"
+    status:
+      - official
+      - verified
+      - tested
+    tested_on: "MECHREVO 耀世 15 Pro 255H"
+    paired_ec: "1.09"
+    paired_bios: null
+    notes: "Internal $FID: X6AR45xUNd."
+
+  - type: BIOS
+    variant: 155H
+    platform: XxMT4xxx
+    version: N.1.07MRO12
+    release_date: unknown
+    original_filename: XxMT4xxxN107MRO12_CAP.EXE
+    binary_path: firmware/XxMT4xxxN107MRO12_CAP.EXE
+    file_size: 7858288
+    source_type: user-provided
+    source_url: unknown
+    status:
+      - verified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "User confirmed this BIOS belongs to the 155H version of MECHREVO 耀世 15 Pro."
+
+  - type: EC
+    variant: 255H
+    version: "1.09"
+    release_date: unknown
+    original_filename: unknown
+    binary_path: unknown
+    file_size: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - tested
+    tested_on: "MECHREVO 耀世 15 Pro 255H"
+    paired_ec: null
+    paired_bios:
+      - N.1.15MRO10
+    notes: ""

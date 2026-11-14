@@ -1,0 +1,24 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 蛟龙 5
+model_aliases:
+  - 蛟龙5
+platform: unknown
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: unknown
+    release_date: unknown
+    original_filename: AfuWin64Cap124.zip
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/AfuWin64Cap124.zip"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Contributor confirms this official ZIP includes a BIOS for MECHREVO Jiaolong 5. Exact BIOS version/platform not verified; file not yet archived."

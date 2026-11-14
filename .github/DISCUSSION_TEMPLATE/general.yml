@@ -1,0 +1,30 @@
+title: "[固件] "
+body:
+  - type: input
+    id: model
+    attributes:
+      label: 机型
+      description: 机械革命具体机型或系列
+      placeholder: 例如：耀世 15 Pro
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: BIOS / EC 版本
+      placeholder: 例如：N.1.15MRO10
+
+  - type: input
+    id: source
+    attributes:
+      label: 官方下载地址
+      placeholder: https://driver.mechrevo.com/...
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 补充信息
+      description: 可填写平台标识、适用年份、EC 版本、实际使用情况或其他线索。
+    validations:
+      required: true

@@ -1,0 +1,39 @@
+# Copy this directory when adding a new model or platform.
+schema_version: 1
+
+manufacturer: MECHREVO
+model: unknown
+model_aliases: []
+platform: unknown
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: unknown
+    release_date: unknown
+    original_filename: unknown
+    binary_path: unknown
+    file_size: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - unverified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: ""
+
+  - type: EC
+    version: unknown
+    release_date: unknown
+    original_filename: unknown
+    binary_path: unknown
+    file_size: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - unverified
+    tested_on: unknown
+    paired_ec: null
+    paired_bios: unknown
+    notes: ""
