@@ -4,15 +4,35 @@ manufacturer: MECHREVO
 model: 耀世 15 Pro
 model_aliases:
   - 耀世15 Pro
-platform: "X6AR45xU / XxMT4xxx"
+platform: "X6AR45xU / XxMT4xxx / GM5IX0A"
 chassis: unknown
 variants:
   - name: 255H
     platform: X6AR45xU
   - name: 155H
     platform: XxMT4xxx
+  - name: i7-14650HX
+    platform: GM5IX0A
 
 firmware:
+  - type: BIOS
+    variant: i7-14650HX
+    platform: GM5IX0A
+    version: N.1.07MRO15
+    release_date: unknown
+    original_filename: GMxIX7xN107MRO15_CAP.EXE
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX7xN107MRO15_CAP.EXE"
+    status:
+      - official
+      - tested
+    tested_on: "User report: Yaoshi 15 Pro, Intel Core i7-14650HX, motherboard GM5IX0A; successfully updated from N.1.07MRO13 using the Yaoshi 16 Pro package."
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Same original EXE is archived at models/耀世16-Pro/firmware/GMxIX7xN107MRO15_CAP.EXE; not duplicated. Motherboard GM5IX0A; shared BIOS compatibility reported."
+
   - type: BIOS
     variant: 255H
     platform: X6AR45xU
