@@ -32,7 +32,9 @@ The following precautions and update steps are based on instructions provided by
 
 | Model / platform | BIOS | EC |
 |---|---|---|
-| [Yaoshi 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` (255H) / `N.1.07MRO12` (155H) / `N.1.07MRO15` (14650HX / GM5IX0A) | `1.09` (255H) / `unknown` (155H) |
+| [Yaoshi 15 Pro (Core Ultra 9 255H)](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` |
+| [Yaoshi 15 Pro (Core Ultra 7 155H)](models/耀世15-Pro/) | `N.1.07MRO12` | `unknown` |
+| [Yaoshi 15 Pro (i7-14650HX / GM5IX0A)](models/耀世15-Pro/) | `N.1.07MRO15` | `unknown` |
 | [Yaoshi 16 Pro (i7-14650HX, GMxIX7x)](models/耀世16-Pro/) | `N.1.07MRO15` | `unknown` |
 | [Yaoshi 16 Ultra / Kuangshi X (255HX + RTX 5060, X6AR5xxx)](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
 | [Jiaolong 5](models/蛟龙5/) | `unknown` (official ZIP URL indexed) | `unknown` |
