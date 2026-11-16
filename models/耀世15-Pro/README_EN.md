@@ -26,6 +26,8 @@ Three hardware variants are currently recorded for the Yaoshi 15 Pro:
 - `N.1.15MRO10` with EC `1.09` has an actual-use record on the 255H variant.
 - The 155H variant uses BIOS platform `XxMT4xxx`; the currently archived BIOS is `N.1.07MRO12`.
 - **i7-14650HX / `GM5IX0A`:** A user reported successfully updating from BIOS `N.1.07MRO13` using the Yaoshi 16 Pro `GMxIX7xN107MRO15_CAP.EXE` package. The binary is archived once under the [Yaoshi 16 Pro](../耀世16-Pro/) directory.
+- **Overseas model sharing the platform family (i7-14650HX / `GM5IX0A`):** XMG FUSION 15 (E24 / `XFU15E24`), motherboard family `GM5IXxA`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-fusion-e24-xfu15e24/).
+- **Related overseas platform reference (255H / `X6AR45xU`):** XMG FUSION 15 (L25 / `XFU15L25`) uses service-manual platform `X5AR45xS`, not the identical board identifier: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-fusion-15-l25-xfu15l25/).
 
 ## Known issues (255H / `X6AR45xU`)
 
