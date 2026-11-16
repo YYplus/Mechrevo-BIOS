@@ -23,6 +23,8 @@
 
 ## 已知信息
 
+- **海外相近平台参考（2025 / `X6FR55xx`）：** XMG NEO 16 (A25 / `XNE16A25`)，同有 Ryzen 9 9955HX + RTX 5070 Ti 配置，服务手册为 `X6xx5xxY` 系列：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-neo-16-a25-xne16a25/)。
+
 - 2023 款蛟龙 16 Pro（Ryzen 9 7945HX + RTX 4060）有机械革命客服提供的 `MRID6_23_V40.exe` BIOS 更新包。更新后**首次重启可能较慢**，后续重启恢复正常（用户反馈）。
 - 感谢 @Blackstone234 在 [Issue #1](https://github.com/YYplus/Mechrevo-BIOS/issues/1#issuecomment-6741848173) 提供新版 BIOS 线索：2025 款蛟龙 16 Pro，Ryzen 9 8945HX + GeForce RTX 5070 Ti 配置通过控制台收到了 `X6DR5xxKN149MRO58_CAP.EXE`（`N.1.49MRO58`）推送。
 - 上述 8945HX + RTX 5070 Ti 仅作为已知推送配置记录，不据此推断所有 `X6DR5xxK` 配置均完全相同。
