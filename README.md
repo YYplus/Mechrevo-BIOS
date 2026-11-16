@@ -32,6 +32,7 @@
 
 | 机型 / 平台 | BIOS | EC |
 |---|---|---|
+| [无界 14XA / 无界 14X（Ryzen 7 8845HS）](models/无界14XA-8845HS/) | `N.1.14MRO50`（官方链接已收录） | `unknown` |
 | [耀世 15 Pro（Core Ultra 9 255H）](models/耀世15-Pro/) | `N.1.15MRO10` | `1.09` |
 | [耀世 15 Pro（Core Ultra 7 155H）](models/耀世15-Pro/) | `N.1.07MRO12` | `unknown` |
 | [耀世 15 Pro（i7-14650HX / GM5IX0A）](models/耀世15-Pro/) | `N.1.07MRO15` | `unknown` |
