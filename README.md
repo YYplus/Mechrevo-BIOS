@@ -30,18 +30,53 @@
 
 ## 已收录机型
 
-| 机型 / 平台 | BIOS | EC |
-|---|---|---|
-| [无界 14XA / 无界 14X（Ryzen 7 8845HS）](models/无界14XA-8845HS/) | `N.1.14MRO50`（已归档） | `unknown` |
-| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10`（255H） / `N.1.07MRO12`（155H） / `N.1.07MRO15`（i7-14650HX） | `1.09`（255H） / `unknown`（其他配置） |
-| [耀世 16 Pro（i7-14650HX，GMxIX7x）](models/耀世16-Pro/) | `N.1.07MRO15` | `unknown` |
-| [耀世 16 Ultra / 旷世 X（255HX + RTX 5060，X6AR5xxx）](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
-| [蛟龙 5](models/蛟龙5/) | `unknown`（官方 ZIP 已收录链接） | `unknown` |
-| [蛟龙 16K](models/蛟龙16K/) | `N.1.26MRO24` | `unknown` |
-| [蛟龙 16 Pro](models/蛟龙16-Pro/) | `N.1.49MRO58`（X6DR5xxK） / `N.1.39MRO55`（2025 / X6FR55xx） / `MRID6_23_V40`（2023 / MRID6-23） | `unknown` |
-| [翼龙 15 Pro（2024）/ 蛟龙 16S（GMxHGxx）](models/GMxHGxx/) | `N.1.10MRO28` | `unknown` |
-| [旷世 16 Pro（i9-13900HX + RTX 4060，GM6PX0X）](models/旷世16-Pro/) | `N.1.09MRO15` | `unknown` |
-| [XxRPxxxx 平台（旷世 / 极光系列）](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` |
+本索引按产品系列整理。点击机型名称进入二级目录，查看具体配置、固件文件、官方下载地址及海外参考机型。处理器、主板型号和 BIOS 平台分别列示；“未确认”表示目前归档资料尚无可靠信息。**BIOS 平台或文件名前缀不等同于主板型号。**
+
+### 无界系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [无界 14XA / 无界 14X（AMD 版）](models/无界14XA-8845HS/) | AMD Ryzen 7 8845HS | 未确认 | `GXxHXxx`（文件名前缀） | `N.1.14MRO50` | 未确认 |
+
+### 耀世系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [耀世 15 Pro](models/耀世15-Pro/) | Core Ultra 9 255H / Core Ultra 7 155H / Core i7-14650HX | `GM5IX0A`（14650HX；其他配置未确认） | `X6AR45xU` / `XxMT4xxx` / `GMxIX7x` | `N.1.15MRO10`（255H） / `N.1.07MRO12`（155H） / `N.1.07MRO15`（14650HX） | `1.09`（255H）；其他未确认 |
+| [耀世 16 Pro](models/耀世16-Pro/) | Intel Core i7-14650HX | `GM6IX7B` | `GMxIX7x` | `N.1.07MRO15` | 未确认 |
+| [耀世 16 Ultra](models/耀世16-Ultra-X6AR5xxx/) | Intel Core Ultra 7 255HX | 未确认 | `X6AR5xxx` | `N.1.33MRO63` | 未确认 |
+
+### 蛟龙系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [蛟龙 5](models/蛟龙5/) | 未确认 | 未确认 | 未确认 | 未确认（官方 ZIP 下载链接已收录） | 未确认 |
+| [蛟龙 16K](models/蛟龙16K/) | 未确认 | 未确认 | 未确认 | `N.1.26MRO24`（官方 ZIP 下载链接已收录） | 未确认 |
+| [蛟龙 16 Pro](models/蛟龙16-Pro/) | 多配置，详见机型页 | 未确认 | `MRID6-23` / `X6DR5xxK` / `X6FR55xx` | `MRID6_23_V40` / `N.1.49MRO58` / `N.1.39MRO55` | 未确认 |
+| [蛟龙 16S](models/GMxHGxx/) | 未确认 | 未确认 | `GMxHGxx` | `N.1.10MRO28` | 未确认 |
+
+### 翼龙系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [翼龙 15 Pro（2024）](models/GMxHGxx/) | 未确认 | 未确认 | `GMxHGxx` | `N.1.10MRO28` | 未确认 |
+
+> 翼龙 15 Pro（2024）与蛟龙 16S 共用 `GMxHGxx` 固件资料条目，因此链接指向同一目录，固件不重复归档。
+
+### 旷世系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [旷世 16 Pro](models/旷世16-Pro/) | Intel Core i9-13900HX | `GM6PX0X` | `GMxPX7x` | `N.1.09MRO15` | 未确认 |
+| [旷世 X](models/耀世16-Ultra-X6AR5xxx/) | Intel Core Ultra 7 255HX | 未确认 | `X6AR5xxx` | `N.1.33MRO63` | 未确认 |
+
+> 旷世 X 与耀世 16 Ultra 使用同一 `X6AR5xxx` BIOS 资料条目，详细信息见耀世系列对应页面。
+
+### 极光系列
+
+| 机型 | 处理器 | 主板型号 | BIOS 平台 | BIOS | EC |
+|---|---|---|---|---|---|
+| [极光 X Pro](models/XxRPxxxx/) | 未确认 | 未确认 | `XxRPxxxx` | `N.1.35MRO58` | 未确认 |
 
 ## 仓库结构
 
