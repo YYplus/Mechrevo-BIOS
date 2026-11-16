@@ -26,6 +26,8 @@
 - 255H 的 `N.1.15MRO10` + EC `1.09` 有实际使用记录。
 - 155H 对应 BIOS 平台 `XxMT4xxx`，当前记录 BIOS `N.1.07MRO12`。
 - **i7-14650HX / `GM5IX0A`：** 用户反馈将原 BIOS `N.1.07MRO13` 使用耀世 16 Pro 的 `GMxIX7xN107MRO15_CAP.EXE` 更新成功。该固件统一归档在[耀世 16 Pro](../耀世16-Pro/)目录，不重复保存。
+- **海外同平台机型（i7-14650HX / `GM5IX0A`）：** XMG FUSION 15 (E24 / `XFU15E24`)，对应主板系列 `GM5IXxA`：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-fusion-e24-xfu15e24/)。
+- **海外相近平台参考（255H / `X6AR45xU`）：** XMG FUSION 15 (L25 / `XFU15L25`)，服务手册平台为 `X5AR45xS`，与本机编号不同：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-fusion-15-l25-xfu15l25/)。
 
 ## 已知问题（255H / `X6AR45xU`）
 
