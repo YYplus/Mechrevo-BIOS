@@ -24,3 +24,4 @@
 
 - 耀世 16 Pro（i7-14650HX）更新至 BIOS `N.1.07MRO15` 的用户反馈与设备信息截图，主板标识 `MECHREVO GM6IX7B`，系统机型标识 `MECHREVO Yaoshi16Pro Series GM6IX7B`。
 - **已知共用固件的配置：** 耀世 15 Pro（i7-14650HX、主板 `GM5IX0A`）。该机型用户反馈从 BIOS `N.1.07MRO13` 使用本条目中的 `GMxIX7xN107MRO15_CAP.EXE` 更新成功。
+- **海外同平台机型：** XMG NEO 16 (E24 / `XNE16E24`)，服务手册主板系列 `GM6IXxB`：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-neo-16-17-e24-xne16e24-xne17e24/)。
