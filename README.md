@@ -32,7 +32,7 @@
 
 | 机型 / 平台 | BIOS | EC |
 |---|---|---|
-| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10`（255H） / `N.1.07MRO12`（155H） | `1.09`（255H） / `unknown`（155H） |
+| [耀世 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10`（255H） / `N.1.07MRO12`（155H） / `N.1.07MRO15`（14650HX / GM5IX0A） | `1.09`（255H） / `unknown`（155H） |
 | [耀世 16 Pro（i7-14650HX，GMxIX7x）](models/耀世16-Pro/) | `N.1.07MRO15` | `unknown` |
 | [耀世 16 Ultra / 旷世 X（255HX + RTX 5060，X6AR5xxx）](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
 | [蛟龙 5](models/蛟龙5/) | `unknown`（官方 ZIP 已收录链接） | `unknown` |
