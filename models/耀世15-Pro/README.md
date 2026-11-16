@@ -4,12 +4,13 @@
 
 ## 机型信息
 
-耀世 15 Pro 当前记录两个硬件版本：
+耀世 15 Pro 当前记录三个硬件版本：
 
-| 硬件版本 | BIOS 平台 | BIOS | EC |
+| 硬件版本 | BIOS 平台 / 主板型号 | BIOS | EC |
 |---|---|---|---|
 | 255H | `X6AR45xU` | `N.1.15MRO10` | `1.09` |
 | 155H | `XxMT4xxx` | `N.1.07MRO12` | `unknown` |
+| i7-14650HX | `GM5IX0A`（主板） | `N.1.07MRO15`（实测） | `unknown` |
 
 ## BIOS
 
@@ -17,12 +18,14 @@
 |---|---|---|---|
 | 255H | `N.1.15MRO10` | [`X6AR45xUN115MRO10_CAP.EXE`](firmware/X6AR45xUN115MRO10_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE) |
 | 155H | `N.1.07MRO12` | [`XxMT4xxxN107MRO12_CAP.EXE`](firmware/XxMT4xxxN107MRO12_CAP.EXE) | `unknown` |
+| i7-14650HX（`GM5IX0A`） | `N.1.07MRO15` | [`GMxIX7xN107MRO15_CAP.EXE`](../耀世16-Pro/firmware/GMxIX7xN107MRO15_CAP.EXE)（与耀世 16 Pro 共用） | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX7xN107MRO15_CAP.EXE) |
 
 ## 已知信息
 
 - 255H 的 `N.1.15MRO10` 固件内部 `$FID`：`X6AR45xUNd`。
 - 255H 的 `N.1.15MRO10` + EC `1.09` 有实际使用记录。
 - 155H 对应 BIOS 平台 `XxMT4xxx`，当前记录 BIOS `N.1.07MRO12`。
+- **i7-14650HX / `GM5IX0A`：** 用户反馈将原 BIOS `N.1.07MRO13` 使用耀世 16 Pro 的 `GMxIX7xN107MRO15_CAP.EXE` 更新成功。该固件统一归档在[耀世 16 Pro](../耀世16-Pro/)目录，不重复保存。
 
 ## 已知问题（255H / `X6AR45xU`）
 
