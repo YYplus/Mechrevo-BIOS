@@ -4,12 +4,13 @@
 
 ## Model information
 
-Two hardware variants are currently recorded for the Yaoshi 15 Pro:
+Three hardware variants are currently recorded for the Yaoshi 15 Pro:
 
-| Hardware variant | BIOS platform | BIOS | EC |
+| Hardware variant | BIOS platform / motherboard | BIOS | EC |
 |---|---|---|---|
 | 255H | `X6AR45xU` | `N.1.15MRO10` | `1.09` |
 | 155H | `XxMT4xxx` | `N.1.07MRO12` | `unknown` |
+| i7-14650HX | `GM5IX0A` (motherboard) | `N.1.07MRO15` (tested) | `unknown` |
 
 ## BIOS
 
@@ -17,12 +18,14 @@ Two hardware variants are currently recorded for the Yaoshi 15 Pro:
 |---|---|---|---|
 | 255H | `N.1.15MRO10` | [`X6AR45xUN115MRO10_CAP.EXE`](firmware/X6AR45xUN115MRO10_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/Intel_ArrowH45/X6AR45xUN115MRO10_CAP.EXE) |
 | 155H | `N.1.07MRO12` | [`XxMT4xxxN107MRO12_CAP.EXE`](firmware/XxMT4xxxN107MRO12_CAP.EXE) | `unknown` |
+| i7-14650HX (`GM5IX0A`) | `N.1.07MRO15` | [`GMxIX7xN107MRO15_CAP.EXE`](../耀世16-Pro/firmware/GMxIX7xN107MRO15_CAP.EXE) (shared with Yaoshi 16 Pro) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX7xN107MRO15_CAP.EXE) |
 
 ## Known information
 
 - The internal `$FID` for the 255H `N.1.15MRO10` package is `X6AR45xUNd`.
 - `N.1.15MRO10` with EC `1.09` has an actual-use record on the 255H variant.
 - The 155H variant uses BIOS platform `XxMT4xxx`; the currently archived BIOS is `N.1.07MRO12`.
+- **i7-14650HX / `GM5IX0A`:** A user reported successfully updating from BIOS `N.1.07MRO13` using the Yaoshi 16 Pro `GMxIX7xN107MRO15_CAP.EXE` package. The binary is archived once under the [Yaoshi 16 Pro](../耀世16-Pro/) directory.
 
 ## Known issues (255H / `X6AR45xU`)
 
