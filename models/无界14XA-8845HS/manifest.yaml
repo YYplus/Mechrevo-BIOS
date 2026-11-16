@@ -1,0 +1,27 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 无界 14XA
+model_aliases:
+  - 无界14XA
+  - 无界 14X (Ryzen 7 8845HS)
+platform: GXxHXxx
+chassis: unknown
+known_models:
+  - "无界 14XA (AMD Ryzen 7 8845HS)"
+
+firmware:
+  - type: BIOS
+    version: N.1.14MRO50
+    release_date: unknown
+    original_filename: GXxHXxxN114MRO50_CAP.EXE
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE"
+    status:
+      - official
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Official URL provided by MECHREVO customer service, also reported publicly. GXxHXxx is the filename prefix, not a confirmed motherboard identifier. Original EXE not yet archived. Do not conflate with the Intel 155H Wujie 14X."
