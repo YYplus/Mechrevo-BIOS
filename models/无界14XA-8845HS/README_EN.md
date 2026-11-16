@@ -16,11 +16,11 @@
 
 | Version | File | Official source |
 |---|---|---|
-| `N.1.14MRO50` | `GXxHXxxN114MRO50_CAP.EXE` (original file not yet archived) | [MECHREVO](<https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE>) |
+| `N.1.14MRO50` | [`GXxHXxxN114MRO50_CAP.EXE`](firmware/GXxHXxxN114MRO50_CAP.EXE) (archived) | [MECHREVO](<https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE>) |
 
 ## Known information
 
 - This BIOS download URL was supplied by MECHREVO online customer service. Its official directory is `MECHREVO2024/WJ14X8845HS/`.
 - `GXxHXxx` is the official filename prefix; the actual motherboard identifier has not been confirmed.
 - This entry covers the known **Ryzen 7 8845HS** variant only; it does not establish BIOS compatibility with the Intel Core Ultra 7 155H Wujie 14X.
-- Only the official filename, version and download URL are indexed for now; the original EXE has not been uploaded to this repository.
+- The original EXE is archived in this model's `firmware/` directory; file size: 9,843,216 bytes.

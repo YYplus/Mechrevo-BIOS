@@ -15,8 +15,8 @@ firmware:
     version: N.1.14MRO50
     release_date: unknown
     original_filename: GXxHXxxN114MRO50_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    binary_path: firmware/GXxHXxxN114MRO50_CAP.EXE
+    file_size: 9843216
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE"
     status:
@@ -24,4 +24,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Official URL provided by MECHREVO customer service, also reported publicly. GXxHXxx is the filename prefix, not a confirmed motherboard identifier. Original EXE not yet archived. Do not conflate with the Intel 155H Wujie 14X."
+    notes: "Official URL provided by MECHREVO customer service, also reported publicly. GXxHXxx is the filename prefix, not a confirmed motherboard identifier. Original EXE archived in firmware/; size 9,843,216 bytes. Do not conflate with the Intel 155H Wujie 14X."

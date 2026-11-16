@@ -16,11 +16,11 @@
 
 | 版本 | 文件 | 官方来源 |
 |---|---|---|
-| `N.1.14MRO50` | `GXxHXxxN114MRO50_CAP.EXE`（尚未归档原文件） | [机械革命官方](<https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE>) |
+| `N.1.14MRO50` | [`GXxHXxxN114MRO50_CAP.EXE`](firmware/GXxHXxxN114MRO50_CAP.EXE)（已归档） | [机械革命官方](<https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2024/WJ14X8845HS/GXxHXxxN114MRO50_CAP.EXE>) |
 
 ## 已知信息
 
 - 该 BIOS 链接由机械革命在线客服提供，官方目录为 `MECHREVO2024/WJ14X8845HS/`。
 - `GXxHXxx` 是官方文件名前缀，不应直接视为已核实的主板标识。
 - 本条目仅适用于已知的 **Ryzen 7 8845HS** 版本，不能据此认定 Intel Core Ultra 7 155H 的无界 14X 使用相同 BIOS。
-- 当前只收录官方文件名、版本和下载地址，原始 EXE 尚未上传仓库。
+- 原始 EXE 已归档于本目录的 `firmware/`，文件大小为 9,843,216 字节。
