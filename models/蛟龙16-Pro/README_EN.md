@@ -23,6 +23,8 @@ Jiaolong 16 Pro is a continuously updated model series. Different model years an
 
 ## Known information
 
+- **Related overseas platform reference (2025 / `X6FR55xx`):** XMG NEO 16 (A25 / `XNE16A25`), also offered with Ryzen 9 9955HX + RTX 5070 Ti; service-manual family `X6xx5xxY`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-neo-16-a25-xne16a25/).
+
 - MECHREVO customer support provided `MRID6_23_V40.exe` for a 2023 Jiaolong 16 Pro with Ryzen 9 7945HX + RTX 4060. The **first restart after updating may be unusually slow**; subsequent restarts return to normal (user report).
 - Thanks to @Blackstone234 for sharing the [new BIOS information in Issue #1](https://github.com/YYplus/Mechrevo-BIOS/issues/1#issuecomment-6741848173): a 2025 Jiaolong 16 Pro with Ryzen 9 8945HX + GeForce RTX 5070 Ti received `X6DR5xxKN149MRO58_CAP.EXE` (`N.1.49MRO58`) through the control-center update channel.
 - The 8945HX + RTX 5070 Ti configuration is recorded only as a known update case and is not used to infer identical applicability across every `X6DR5xxK` configuration.
