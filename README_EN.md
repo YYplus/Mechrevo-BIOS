@@ -30,18 +30,53 @@ The following precautions and update steps are based on instructions provided by
 
 ## Indexed models
 
-| Model / platform | BIOS | EC |
-|---|---|---|
-| [Wujie 14XA / Wujie 14X (Ryzen 7 8845HS)](models/无界14XA-8845HS/) | `N.1.14MRO50` (archived) | `unknown` |
-| [Yaoshi 15 Pro](models/耀世15-Pro/) | `N.1.15MRO10` (255H) / `N.1.07MRO12` (155H) / `N.1.07MRO15` (i7-14650HX) | `1.09` (255H) / `unknown` (other variants) |
-| [Yaoshi 16 Pro (i7-14650HX, GMxIX7x)](models/耀世16-Pro/) | `N.1.07MRO15` | `unknown` |
-| [Yaoshi 16 Ultra / Kuangshi X (255HX + RTX 5060, X6AR5xxx)](models/耀世16-Ultra-X6AR5xxx/) | `N.1.33MRO63` | `unknown` |
-| [Jiaolong 5](models/蛟龙5/) | `unknown` (official ZIP URL indexed) | `unknown` |
-| [Jiaolong 16K](models/蛟龙16K/) | `N.1.26MRO24` | `unknown` |
-| [Jiaolong 16 Pro](models/蛟龙16-Pro/) | `N.1.49MRO58` (X6DR5xxK) / `N.1.39MRO55` (2025 / X6FR55xx) / `MRID6_23_V40` (2023 / MRID6-23) | `unknown` |
-| [Yilong 15 Pro (2024) / Jiaolong 16S (GMxHGxx)](models/GMxHGxx/) | `N.1.10MRO28` | `unknown` |
-| [Kuangshi 16 Pro (i9-13900HX + RTX 4060, GM6PX0X)](models/旷世16-Pro/) | `N.1.09MRO15` | `unknown` |
-| [XxRPxxxx platform (KUANGSHI / JIGUANG series)](models/XxRPxxxx/) | `N.1.35MRO58` | `unknown` |
+This index is organized by product series. Select a model to open its detail page for configurations, firmware files, official download URLs, and overseas reference models. CPU, motherboard model, and BIOS platform are listed separately. **“Not confirmed” means the available archive contains no reliable information; a BIOS platform or filename prefix is not necessarily the motherboard model.**
+
+### Wujie Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Wujie 14XA / Wujie 14X (AMD)](models/无界14XA-8845HS/) | AMD Ryzen 7 8845HS | Not confirmed | `GXxHXxx` (filename prefix) | `N.1.14MRO50` | Not confirmed |
+
+### Yaoshi Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Yaoshi 15 Pro](models/耀世15-Pro/) | Core Ultra 9 255H / Core Ultra 7 155H / Core i7-14650HX | `GM5IX0A` (14650HX; other variants not confirmed) | `X6AR45xU` / `XxMT4xxx` / `GMxIX7x` | `N.1.15MRO10` (255H) / `N.1.07MRO12` (155H) / `N.1.07MRO15` (14650HX) | `1.09` (255H); others not confirmed |
+| [Yaoshi 16 Pro](models/耀世16-Pro/) | Intel Core i7-14650HX | `GM6IX7B` | `GMxIX7x` | `N.1.07MRO15` | Not confirmed |
+| [Yaoshi 16 Ultra](models/耀世16-Ultra-X6AR5xxx/) | Intel Core Ultra 7 255HX | Not confirmed | `X6AR5xxx` | `N.1.33MRO63` | Not confirmed |
+
+### Jiaolong Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Jiaolong 5](models/蛟龙5/) | Not confirmed | Not confirmed | Not confirmed | Not confirmed (official ZIP URL indexed) | Not confirmed |
+| [Jiaolong 16K](models/蛟龙16K/) | Not confirmed | Not confirmed | Not confirmed | `N.1.26MRO24` (official ZIP URL indexed) | Not confirmed |
+| [Jiaolong 16 Pro](models/蛟龙16-Pro/) | Multiple configurations; see model page | Not confirmed | `MRID6-23` / `X6DR5xxK` / `X6FR55xx` | `MRID6_23_V40` / `N.1.49MRO58` / `N.1.39MRO55` | Not confirmed |
+| [Jiaolong 16S](models/GMxHGxx/) | Not confirmed | Not confirmed | `GMxHGxx` | `N.1.10MRO28` | Not confirmed |
+
+### Yilong Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Yilong 15 Pro (2024)](models/GMxHGxx/) | Not confirmed | Not confirmed | `GMxHGxx` | `N.1.10MRO28` | Not confirmed |
+
+> Yilong 15 Pro (2024) and Jiaolong 16S share the `GMxHGxx` firmware entry. Both links point to the same directory; the firmware binary is archived only once.
+
+### Kuangshi Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Kuangshi 16 Pro](models/旷世16-Pro/) | Intel Core i9-13900HX | `GM6PX0X` | `GMxPX7x` | `N.1.09MRO15` | Not confirmed |
+| [Kuangshi X](models/耀世16-Ultra-X6AR5xxx/) | Intel Core Ultra 7 255HX | Not confirmed | `X6AR5xxx` | `N.1.33MRO63` | Not confirmed |
+
+> Kuangshi X and Yaoshi 16 Ultra share the same `X6AR5xxx` BIOS entry. See the corresponding page under Yaoshi Series for details.
+
+### Jiguang Series
+
+| Model | Processor | Motherboard | BIOS platform | BIOS | EC |
+|---|---|---|---|---|---|
+| [Jiguang X Pro](models/XxRPxxxx/) | Not confirmed | Not confirmed | `XxRPxxxx` | `N.1.35MRO58` | Not confirmed |
 
 ## Repository layout
 
