@@ -20,3 +20,4 @@
 ## Known information
 
 - **KUANGSHI X (Core Ultra 7 255HX + RTX 5060 Laptop)** uses the same `X6AR5xxx` BIOS firmware as the Yaoshi 16 Ultra, with a successful update reported using the Yaoshi 16 Ultra update procedure.
+- **Overseas platform reference:** XMG FUSION 16 (M25 / `XFU16M25`), service-manual board family `X6AR55xU`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-fusion-16-m25-xfu16m25/).
