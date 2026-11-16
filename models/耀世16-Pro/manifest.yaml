@@ -9,6 +9,7 @@ platform: GMxIX7x
 chassis: GM6IX7B
 known_models:
   - "耀世 16 Pro (Intel Core i7-14650HX, GM6IX7B)"
+  - "耀世 15 Pro (Intel Core i7-14650HX, GM5IX0A; successful update reported)"
 
 firmware:
   - type: BIOS
@@ -25,4 +26,4 @@ firmware:
     tested_on: "MECHREVO 耀世 16 Pro; Intel Core i7-14650HX; motherboard GM6IX7B (screenshot report)"
     paired_ec: unknown
     paired_bios: null
-    notes: "BIOS date shown in system information: 2026-11-06. Original BIOS binary archived in firmware/."
+    notes: "BIOS date shown in system information: 2026-11-06. Original BIOS binary archived in firmware/. Yaoshi 15 Pro with i7-14650HX and motherboard GM5IX0A successfully updated from N.1.07MRO13 using this package (user report)."
