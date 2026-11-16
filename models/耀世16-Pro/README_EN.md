@@ -24,3 +24,4 @@
 
 - A Yaoshi 16 Pro (i7-14650HX) BIOS update to `N.1.07MRO15` was reported and supported by device information screenshots showing motherboard identifier `MECHREVO GM6IX7B` and system model `MECHREVO Yaoshi16Pro Series GM6IX7B`.
 - **Known compatible configuration:** Yaoshi 15 Pro (i7-14650HX, motherboard `GM5IX0A`). A user reported successfully updating from BIOS `N.1.07MRO13` using the `GMxIX7xN107MRO15_CAP.EXE` package archived here.
+- **Overseas model sharing the motherboard family:** XMG NEO 16 (E24 / `XNE16E24`), service-manual board family `GM6IXxB`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-neo-16-17-e24-xne16e24-xne17e24/).
