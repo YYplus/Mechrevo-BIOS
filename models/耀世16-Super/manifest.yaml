@@ -1,0 +1,29 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 耀世 16 Super
+model_aliases:
+  - 耀世16 Super
+  - 耀世16Super
+  - "yaoshi16 Super Series GM6IX8B"
+applicable_years: "2024"
+platform: unknown
+chassis: GM6IX8B
+known_models:
+  - "耀世 16 Super (Intel Core i9-14900HX + RTX 4080 Laptop 12 GB, motherboard GM6IX8B)"
+
+firmware:
+  - type: BIOS
+    version: N.1.10MRO09
+    release_date: unknown
+    original_filename: unknown
+    binary_path: unknown
+    file_size: unknown
+    source_type: unknown
+    source_url: unknown
+    status:
+      - unverified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Installed BIOS version and BIOS date (2025-01-07) reported by @Icather in Issue #3 (https://github.com/YYplus/Mechrevo-BIOS/issues/3). No official update package or direct firmware URL has been obtained. Final version and firmware filename prefix are unconfirmed."

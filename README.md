@@ -40,7 +40,7 @@
 
 ### 02 · 耀世系列
 
-[耀世 15 Pro](models/耀世15-Pro/)、[耀世 16 Pro](models/耀世16-Pro/)、[耀世 16 Ultra](models/耀世16-Ultra-X6AR5xxx/)
+[耀世 15 Pro](models/耀世15-Pro/)、[耀世 16 Pro](models/耀世16-Pro/)、[耀世 16 Super](models/耀世16-Super/)、[耀世 16 Ultra](models/耀世16-Ultra-X6AR5xxx/)
 
 ---
 

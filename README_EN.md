@@ -40,7 +40,7 @@ Models are organized into six product series. Select a model to open its directo
 
 ### 02 · Yaoshi Series
 
-[Yaoshi 15 Pro](models/耀世15-Pro/), [Yaoshi 16 Pro](models/耀世16-Pro/), [Yaoshi 16 Ultra](models/耀世16-Ultra-X6AR5xxx/)
+[Yaoshi 15 Pro](models/耀世15-Pro/), [Yaoshi 16 Pro](models/耀世16-Pro/), [Yaoshi 16 Super](models/耀世16-Super/), [Yaoshi 16 Ultra](models/耀世16-Ultra-X6AR5xxx/)
 
 ---
 
