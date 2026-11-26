@@ -32,8 +32,8 @@ firmware:
     version: unknown
     release_date: unknown
     original_filename: GMxIX9xN111MRO10_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    binary_path: firmware/GMxIX9xN111MRO10_CAP.EXE
+    file_size: 10936672
     source_type: user-provided
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE"
     status:
@@ -41,4 +41,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. Reported version N.1.10MRO10 differs from filename-derived N.1.11MRO10; filename prefix GMxIX9x. Actual motherboard of reporting device, internal version, availability of URL, compatibility with GM6IX8B and microcode changes are not verified. Do not treat as an approved upgrade for GM6IX8B."
+    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. Reported version N.1.10MRO10 differs from filename-derived N.1.11MRO10; filename prefix GMxIX9x. Original uploaded EXE archived in firmware/ with vendor filename; internal version, byte-for-byte equivalence with the vendor download, actual motherboard of reporting device, compatibility with GM6IX8B and microcode changes are not verified. Do not treat as an approved upgrade for GM6IX8B."

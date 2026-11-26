@@ -22,9 +22,9 @@
 
 ## Firmware lead pending verification
 
-| Version stated in the post | Filename in the vendor-domain URL | Status |
-|---|---|---|
-| `N.1.10MRO10` | [`GMxIX9xN111MRO10_CAP.EXE`](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | Version and target platform unconfirmed; binary not archived |
+| Version stated in the post | Firmware file | Official source | Status |
+|---|---|---|---|
+| `N.1.10MRO10` | [`GMxIX9xN111MRO10_CAP.EXE`](firmware/GMxIX9xN111MRO10_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | Binary archived; version and target platform unconfirmed |
 
 On 2026-11-26 a firmware lead was received for the Yaoshi 16 Super Destroyer variant (i9-14900HX + RTX 4080). The user reported that an update supplied by customer support resolved blue-screen restarts while playing Phantom Blade in performance mode. The post states `N.1.10MRO10`, whereas the filename indicates `N.1.11MRO10` and the prefix `GMxIX9x`. Neither the internal firmware information nor the reporting device's actual motherboard identifier has been checked. **Compatibility with `GM6IX8B` is not established; confirm with MECHREVO customer support before flashing.** Microcode changes are unknown.
 
