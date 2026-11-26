@@ -26,7 +26,7 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Installed BIOS version and BIOS date (2025-01-07) reported by @Icather in Issue #3 (https://github.com/YYplus/Mechrevo-BIOS/issues/3). No update package or direct firmware URL has been confirmed for GM6IX8B. Final version and firmware filename prefix are unconfirmed."
+    notes: "Installed BIOS version and BIOS date (2025-01-07) reported by @Icather in Issue #3 (https://github.com/YYplus/Mechrevo-BIOS/issues/3). No update package or direct firmware URL has been confirmed for GM6IX8B. Final version and firmware filename prefix are unconfirmed. On 2026-08-04 the same reporter obtained GMxIX9xN110MRO09_CAP.EXE from MECHREVO customer support (10922480 bytes, unsigned AMI AFU package); flashing it left both the BIOS version and the CPU microcode revision (0x120) unchanged. AFU /S on that GM6IX8B unit prints System ROM ID GMxIX9xN."
 
   - type: BIOS
     version: N.1.11MRO10
@@ -41,4 +41,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. The original post lists N.1.10MRO10. The archived BIOS image contains the version string N.1.11MRO10 and the $FID project identifier GMxIX9xN1. The vendor download has not been compared byte for byte. The reporting device’s motherboard, compatibility with GM6IX8B and any microcode changes remain unconfirmed. Do not treat as an approved upgrade for GM6IX8B."
+    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. The original post lists N.1.10MRO10. The archived BIOS image contains the version string N.1.11MRO10 and the $FID project identifier GMxIX9xN1. The vendor download has not been compared byte for byte. SHA-256 of the file retrieved from the vendor URL on 2026-11-26: eeccef4a80cf47784d443f34fe80def73b7e950173e074d4d434eaf0cabb4edb (MD5 ee156abd78f99039a2032b4f549f04df, 10936672 bytes, vendor Last-Modified 2026-11-06 10:00:41 GMT). A full-file ASCII and UTF-16LE scan of the CAP.EXE finds no plaintext version string and no FID, so the N.1.11MRO10 and GMxIX9xN1 values above come from the unpacked image rather than from the package itself. On the reporter’s GM6IX8B unit AFU /S prints System ROM ID GMxIX9xN, the same ROM family as the $FID prefix, and GMxIX9xN110MRO09_CAP.EXE was flashed successfully on that unit in 2026-08-04 (FFS pass, RomLayout pass, Secure Flash verified). Microcode changes and the reporting device’s motherboard remain unconfirmed. Do not treat as an approved upgrade for GM6IX8B."
