@@ -24,9 +24,17 @@
 
 | 包内 BIOS 版本 | 固件文件 | 官方来源 | 状态 |
 |---|---|---|---|
-| `N.1.11MRO10` | [`GMxIX9xN111MRO10_CAP.exe`](firmware/GMxIX9xN111MRO10_CAP.exe) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | 已归档，适用主板待核实 |
+| `N.1.11MRO10` | [`GMxIX9xN111MRO10_CAP.exe`](firmware/GMxIX9xN111MRO10_CAP.exe) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | 已归档，`$FID` 与本机 ROM ID 同族；微码未知 |
 
-2026-11-26 收到耀世 16 Super 毁灭者（i9-14900HX + RTX 4080）的固件线索。据用户反馈，客服提供的更新解决了《影之刃》狂暴模式下的蓝屏重启问题。原帖记录的版本为 `N.1.10MRO10`。归档的 BIOS 镜像内记录的版本为 `N.1.11MRO10`，`$FID` 项目标识为 `GMxIX9xN1`。反馈设备的实际主板型号仍待确认。**不能据此认定该固件适用于 `GM6IX8B`，请先向机械革命客服确认，勿直接刷写。** 微码更新情况未知。
+2026-11-26 收到耀世 16 Super 毁灭者（i9-14900HX + RTX 4080）的固件线索。据用户反馈，客服提供的更新解决了《影之刃》狂暴模式下的蓝屏重启问题。原帖记录的版本为 `N.1.10MRO10`。归档的 BIOS 镜像内记录的版本为 `N.1.11MRO10`，`$FID` 项目标识为 `GMxIX9xN1`。
+
+**关于 `GMxIX9x` 前缀与本机的关系：** `GM6IX8B` 是 DMI 中的主板备案名，AFU `/S` 打印的 `System ROM ID` 则为 `GMxIX9xN`。2026-08-04 同一台 GM6IX8B 机器曾实刷 `GMxIX9xN110MRO09_CAP.EXE` 并成功（FFS Pass / RomLayout Pass / Secure Flash 验证通过），因此 `GMxIX9x` 属于该机型的 ROM 家族，前缀差异不构成不兼容的理由。
+
+**包内不含明文版本信息：** 对归档的 CAP.EXE 做了全文件 ASCII 与 UTF-16LE 扫描，`N.1.11MRO10`、`GMxIX9xN1`、`MRO10` 均无命中，`$FID` 只在 `.rdata` 段出现一次（AFU 自身常量）。版本信息来自解包后的镜像。包结构为 AMI AFU 5.15.03（PE32+ x64）+ `@UAF` 归档，overlay 自 `0x110000` 起，无数字签名。
+
+**下载件校验：** `sha256 eeccef4a80cf47784d443f34fe80def73b7e950173e074d4d434eaf0cabb4edb`，10,936,672 B，厂商侧 `Last-Modified` 为 2026-11-06。
+
+**仍不能认定为可直接执行的升级：** 微码更新情况未知，且本机型上一版 `N.1.10MRO09` 实刷后微码仍停留在 `0x120`。请先向机械革命客服确认适用范围，勿直接刷写。
 
 ## 已知信息
 
