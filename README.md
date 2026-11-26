@@ -64,7 +64,7 @@
 
 ### 06 · 极光系列
 
-[极光 X Pro](models/XxRPxxxx/)
+[极光 X](models/极光X/)、[极光 Pro](models/极光-Pro/)、[极光 X Pro](models/XxRPxxxx/)
 
 ## 仓库结构
 

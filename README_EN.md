@@ -64,7 +64,7 @@ Models are organized into six product series. Select a model to open its directo
 
 ### 06 · Jiguang Series
 
-[Jiguang X Pro](models/XxRPxxxx/)
+[Jiguang X](models/极光X/), [Jiguang Pro](models/极光-Pro/), [Jiguang X Pro](models/XxRPxxxx/)
 
 ## Repository layout
 

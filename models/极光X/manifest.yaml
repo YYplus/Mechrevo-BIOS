@@ -1,0 +1,26 @@
+schema_version: 1
+
+manufacturer: MECHREVO
+model: 极光 X
+model_aliases:
+  - 极光X
+applicable_years: "2024"
+platform: GMxIR7x
+chassis: unknown
+
+firmware:
+  - type: BIOS
+    version: N.1.06MRO14
+    release_date: unknown
+    original_filename: GMxIR7xN106MRO14_CAP.EXE
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN106MRO14_CAP.EXE"
+    status:
+      - official
+      - unverified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Model, year, firmware prefix, version and MECHREVO-domain download URL reported by @baby170303 in Issue #6 (https://github.com/YYplus/Mechrevo-BIOS/issues/6). Binary not yet archived; download availability, internal metadata and flashing compatibility not independently verified."
