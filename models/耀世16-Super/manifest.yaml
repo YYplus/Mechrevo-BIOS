@@ -7,7 +7,7 @@ model_aliases:
   - 耀世16Super
   - "yaoshi16 Super Series GM6IX8B"
 applicable_years: "2024"
-platform: unknown
+platform: GMxIX9x
 chassis: GM6IX8B
 known_models:
   - "耀世 16 Super (Intel Core i9-14900HX + RTX 4080 Laptop 12 GB, motherboard GM6IX8B)"
@@ -16,17 +16,17 @@ firmware:
   - type: BIOS
     version: N.1.10MRO09
     release_date: unknown
-    original_filename: unknown
+    original_filename: GMxIX9xN110MRO09_CAP.EXE
     binary_path: unknown
     file_size: unknown
-    source_type: unknown
+    source_type: user-provided
     source_url: unknown
     status:
-      - unverified
-    tested_on: unknown
+      - tested
+    tested_on: "Yaoshi 16 Super, GM6IX8B, i9-14900HX + RTX 4080 Laptop (user report)"
     paired_ec: unknown
     paired_bios: null
-    notes: "Installed BIOS version and BIOS date (2025-01-07) reported by @Icather in Issue #3 (https://github.com/YYplus/Mechrevo-BIOS/issues/3). No update package or direct firmware URL has been confirmed for GM6IX8B. Final version and firmware filename prefix are unconfirmed."
+    notes: "Installed BIOS version and BIOS date (2025-01-07) reported by @Icather. Follow-up (https://github.com/YYplus/Mechrevo-BIOS/issues/3#issuecomment-7189742406) reports successful flash of GMxIX9xN110MRO09_CAP.EXE on 2026-08-04, AFU System ROM ID GMxIX9xN on DMI GM6IX8B, and Windows-reported microcode 0x120 afterward. Original binary and direct download URL not obtained."
 
   - type: BIOS
     version: N.1.11MRO10
@@ -41,4 +41,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. The original post lists N.1.10MRO10. The archived BIOS image contains the version string N.1.11MRO10 and the $FID project identifier GMxIX9xN1. The vendor download has not been compared byte for byte. The reporting device’s motherboard, compatibility with GM6IX8B and any microcode changes remain unconfirmed. Do not treat as an approved upgrade for GM6IX8B."
+    notes: "Firmware lead received 2026-11-26 for Yaoshi 16 Super Destroyer (i9-14900HX + RTX 4080). User reports a customer-support update resolved blue-screen restarts in performance mode. The original post lists N.1.10MRO10. Version N.1.11MRO10 is recorded from the official filename; no reproducible extracted-image evidence of internal version or $FID is available here. @Icather follow-up (https://github.com/YYplus/Mechrevo-BIOS/issues/3#issuecomment-7189742406) reports AFU System ROM ID GMxIX9xN on GM6IX8B and successful flashing of the older GMxIX9xN110MRO09_CAP.EXE. Newer official download reportedly has the same size as the archive; full content not independently compared. The reported ROM family match supports applicability but is not a successful flash of this newer version. Actual target compatibility and microcode changes remain unverified."

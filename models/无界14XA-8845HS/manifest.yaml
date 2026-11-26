@@ -25,3 +25,19 @@ firmware:
     paired_ec: unknown
     paired_bios: null
     notes: "Official URL provided by MECHREVO customer service, also reported publicly. GXxHXxx is the filename prefix, not a confirmed motherboard identifier. Original EXE archived in firmware/; size 9,843,216 bytes. Do not conflate with the Intel 155H Wujie 14X."
+
+  - type: BIOS
+    version: N.1.15MRO27
+    release_date: unknown
+    original_filename: GXxHXxxN115MRO27_CAP.EXE
+    binary_path: unknown
+    file_size: unknown
+    source_type: official
+    source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/HPT_QB4/GXxHXxxN115MRO27_CAP.EXE"
+    status:
+      - official
+      - unverified
+    tested_on: unknown
+    paired_ec: unknown
+    paired_bios: null
+    notes: "Reported by @baby170303 in Issue #8 (https://github.com/YYplus/Mechrevo-BIOS/issues/8) for Wujie 14X (2024, Ryzen 7 8845HS), filename prefix GXxHXxx. Binary not yet archived; internal metadata and precise compatibility with N.1.14MRO50 variants are unverified."
