@@ -24,7 +24,7 @@
 
 | 帖子所述版本 | 固件文件 | 官方来源 | 状态 |
 |---|---|---|---|
-| `N.1.10MRO10` | [`GMxIX9xN111MRO10_CAP.EXE`](firmware/GMxIX9xN111MRO10_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | 文件已归档，版本与适用平台待核实 |
+| `N.1.10MRO10` | [`GMxIX9xN111MRO10_CAP.exe`](firmware/GMxIX9xN111MRO10_CAP.exe) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | 文件已归档，版本与适用平台待核实 |
 
 2026-11-26 收到耀世 16 Super 毁灭者（i9-14900HX + RTX 4080）的固件线索。据用户反馈，客服提供的更新解决了《影之刃》狂暴模式下的蓝屏重启问题。帖子所述版本为 `N.1.10MRO10`，而文件名对应的版本标记为 `N.1.11MRO10`、前缀为 `GMxIX9x`。尚未检查固件内部信息，也未确认反馈设备的实际主板型号。**不能据此认定该固件适用于 `GM6IX8B`，请先向机械革命客服确认，勿直接刷写。** 微码更新情况未知。
 

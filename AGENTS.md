@@ -64,7 +64,7 @@ Do not add empty checklist sections or ask submitters to provide information tha
 
 - Archive only MECHREVO BIOS / EC firmware within this project's scope.
 - Put firmware binaries in the relevant model/platform directory's `firmware/` subdirectory.
-- Preserve the vendor's original filename exactly. Do not rename, repack, patch, edit, strip, or otherwise modify BIOS / EC binaries.
+- Preserve the actual downloaded or supplied original filename exactly, including extension case. A download URL's filename may differ in capitalization from the downloaded file; keep the URL unchanged and do not rename the file to match it. Do not rename, repack, patch, edit, strip, or otherwise modify BIOS / EC binaries.
 - When the original firmware file is supplied and can be added to the repository, include the binary itself rather than recording only a download URL. If the file is unavailable or cannot be committed, record the source URL and clearly leave the archive path unavailable.
 - Keep the original vendor download URL in `manifest.yaml` and the model README whenever it is known.
 - Do not invent firmware versions, release dates, CPU variants, motherboard IDs, platform IDs, EC pairings, file sizes, or compatibility claims.

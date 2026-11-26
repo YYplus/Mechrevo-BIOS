@@ -31,8 +31,8 @@ firmware:
   - type: BIOS
     version: unknown
     release_date: unknown
-    original_filename: GMxIX9xN111MRO10_CAP.EXE
-    binary_path: firmware/GMxIX9xN111MRO10_CAP.EXE
+    original_filename: GMxIX9xN111MRO10_CAP.exe
+    binary_path: firmware/GMxIX9xN111MRO10_CAP.exe
     file_size: 10936672
     source_type: user-provided
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE"
