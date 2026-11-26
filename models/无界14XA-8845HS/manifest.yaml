@@ -29,9 +29,9 @@ firmware:
   - type: BIOS
     version: N.1.15MRO27
     release_date: unknown
-    original_filename: GXxHXxxN115MRO27_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    original_filename: GXxHXxxN115MRO27_CAP.exe
+    binary_path: firmware/GXxHXxxN115MRO27_CAP.exe
+    file_size: 10631040
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/HPT_QB4/GXxHXxxN115MRO27_CAP.EXE"
     status:
@@ -40,4 +40,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Reported by @baby170303 in Issue #8 (https://github.com/YYplus/Mechrevo-BIOS/issues/8) for Wujie 14X (2024, Ryzen 7 8845HS), filename prefix GXxHXxx. Binary not yet archived; internal metadata and precise compatibility with N.1.14MRO50 variants are unverified."
+    notes: "Reported by @baby170303 in Issue #8 (https://github.com/YYplus/Mechrevo-BIOS/issues/8) for Wujie 14X (2024, Ryzen 7 8845HS), filename prefix GXxHXxx. Original downloaded binary archived in firmware/ with its original filename; internal metadata and precise compatibility with N.1.14MRO50 variants are unverified."
