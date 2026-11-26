@@ -16,9 +16,9 @@
 
 | Version | File | Official source |
 |---|---|---|
-| `N.1.06MRO14` | `GMxIR7xN106MRO14_CAP.EXE` (not yet archived) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN106MRO14_CAP.EXE) |
+| `N.1.06MRO14` | [`GMxIR7xN106MRO14_CAP.exe`](firmware/GMxIR7xN106MRO14_CAP.exe) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN106MRO14_CAP.EXE) |
 
 ## Known information
 
 - Thanks to @baby170303 for providing model, firmware version and vendor download URL information in [Issue #6](https://github.com/YYplus/Mechrevo-BIOS/issues/6).
-- The model year, firmware platform and version are based on the submission. The binary has not been obtained or inspected, and flashing results have not been verified.
+- The model year, firmware platform and version are based on the submission. The original binary has been archived; its internal metadata and flashing results have not been independently verified.

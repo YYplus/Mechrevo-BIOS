@@ -12,9 +12,9 @@ firmware:
   - type: BIOS
     version: N.1.14MRO19
     release_date: unknown
-    original_filename: GMxPG5xN114MRO19_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    original_filename: GMxPG5xN114MRO19_CAP.exe
+    binary_path: firmware/GMxPG5xN114MRO19_CAP.exe
+    file_size: 10622064
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_8L/GMxPG5xN114MRO19_CAP.EXE"
     status:
@@ -23,4 +23,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Model, year, firmware prefix, version and MECHREVO-domain download URL reported by @baby170303 in Issue #7 (https://github.com/YYplus/Mechrevo-BIOS/issues/7). Binary not yet archived; download availability, internal metadata and flashing compatibility not independently verified. Missing initial h restored in submitted URL; version N114MRO19 formatted as N.1.14MRO19."
+    notes: "Model, year, firmware prefix, version and MECHREVO-domain download URL reported by @baby170303 in Issue #7 (https://github.com/YYplus/Mechrevo-BIOS/issues/7). Original downloaded binary archived with its original filename; internal metadata and flashing compatibility not independently verified. Missing initial h restored in submitted URL; version N114MRO19 formatted as N.1.14MRO19."

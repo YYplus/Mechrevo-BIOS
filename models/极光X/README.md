@@ -16,9 +16,9 @@
 
 | 版本 | 文件 | 官方来源 |
 |---|---|---|
-| `N.1.06MRO14` | `GMxIR7xN106MRO14_CAP.EXE`（尚未归档） | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN106MRO14_CAP.EXE) |
+| `N.1.06MRO14` | [`GMxIR7xN106MRO14_CAP.exe`](firmware/GMxIR7xN106MRO14_CAP.exe) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN106MRO14_CAP.EXE) |
 
 ## 已知信息
 
 - 感谢 @baby170303 在 [Issue #6](https://github.com/YYplus/Mechrevo-BIOS/issues/6) 提供机型、固件版本及官方下载链接。
-- 机型年份、固件平台及版本根据提交者提供的信息记录。尚未取得固件文件，未检查固件内部信息或验证刷写结果。
+- 机型年份、固件平台及版本根据提交者提供的信息记录。固件原文件已归档，未检查固件内部信息或验证刷写结果。
