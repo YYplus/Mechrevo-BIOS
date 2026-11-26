@@ -17,7 +17,10 @@
 |---|---|---|
 | `N.1.33MRO63` | [`X6AR5xxxN133MRO63_CAP.EXE`](firmware/X6AR5xxxN133MRO63_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
 
-## Known information
+## User reports
 
-- **KUANGSHI X (Core Ultra 7 255HX + RTX 5060 Laptop)** uses the same `X6AR5xxx` BIOS firmware as the Yaoshi 16 Ultra, with a successful update reported using the Yaoshi 16 Ultra update procedure.
+- Kuangshi X (Core Ultra 7 255HX + RTX 5060) successfully updated using the Yaoshi 16 Ultra package (user report).
+
+## Overseas references
+
 - **Overseas platform reference:** XMG FUSION 16 (M25 / `XFU16M25`), service-manual board family `X6AR55xU`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-fusion-16-m25-xfu16m25/).

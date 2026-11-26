@@ -17,7 +17,10 @@
 |---|---|---|
 | `N.1.33MRO63` | [`X6AR5xxxN133MRO63_CAP.EXE`](firmware/X6AR5xxxN133MRO63_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_IntelARL/X6AR5xxxN133MRO63_CAP.EXE) |
 
-## 已知信息
+## 实测与反馈
 
-- **旷世 X（Core Ultra 7 255HX + RTX 5060 Laptop）**与耀世 16 Ultra 使用相同的 `X6AR5xxx` BIOS 固件，已有按耀世 16 Ultra 更新方法成功升级的记录。
+- 旷世 X（Core Ultra 7 255HX + RTX 5060）使用耀世 16 Ultra 固件升级成功（用户反馈）。
+
+## 海外参考
+
 - **海外同平台参考：** XMG FUSION 16 (M25 / `XFU16M25`)，服务手册主板系列 `X6AR55xU`：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-fusion-16-m25-xfu16m25/)。
