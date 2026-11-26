@@ -16,6 +16,6 @@
 |---|---|---|
 | `N.1.10MRO28` | [`GMxHGxxN110MRO28_CAP.EXE`](firmware/GMxHGxxN110MRO28_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxHGxxN110MRO28_CAP.EXE) |
 
-## 已知信息
+## 海外参考
 
 - **海外同平台机型：** TUXEDO Stellaris Slim 15 Gen6（AMD），主板标识同为 `GMxHGxx`：[TUXEDO 官方产品页](https://www.tuxedocomputers.com/en/TUXEDO-Stellaris-Slim-15-Gen6-AMD.tuxedo) / [TUXEDO 官方 Windows 驱动下载入口](https://mytuxedo.de/index.php/s/ZeB8FTf8CrpEtJr)（进入后选择对应机型）。

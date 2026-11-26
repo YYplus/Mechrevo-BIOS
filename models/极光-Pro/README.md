@@ -18,8 +18,4 @@
 |---|---|---|
 | `N.1.14MRO19` | [`GMxPG5xN114MRO19_CAP.exe`](firmware/GMxPG5xN114MRO19_CAP.exe) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_8L/GMxPG5xN114MRO19_CAP.EXE) |
 
-## 已知信息
-
-- 感谢 @baby170303 在 [Issue #7](https://github.com/YYplus/Mechrevo-BIOS/issues/7) 提供机型、固件版本及官方下载链接。
-- 机型年份、固件平台及版本根据提交者提供的信息记录。固件原文件已归档，未检查固件内部信息或验证刷写结果。
-- 原提交链接缺少 `https` 的首字母 `h`，已补齐。原报版本 `N114MRO19` 按仓库版本格式记为 `N.1.14MRO19`。
+贡献者： @baby170303 ([Issue #7](https://github.com/YYplus/Mechrevo-BIOS/issues/7))。

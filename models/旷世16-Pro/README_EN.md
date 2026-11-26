@@ -20,9 +20,8 @@
 |---|---|---|
 | `N.1.09MRO15` | [`GMxPX7xN109MRO15_CAP.EXE`](firmware/GMxPX7xN109MRO15_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_10L/GMxPX7xN109MRO15_CAP.EXE) |
 
-## Known information
+Contributor: @user5758 ([Issue #1](https://github.com/YYplus/Mechrevo-BIOS/issues/1#issuecomment-6870968083)).
 
-- The BIOS download link was provided by MECHREVO for a Kuangshi 16 Pro with Intel Core i9-13900HX, RTX 4060, and motherboard `GM6PX0X`.
-- `GMxPX7x` is the official firmware filename prefix; the motherboard identifier `GM6PX0X` is recorded separately.
+## Overseas references
 
 - **Overseas model sharing the motherboard family:** XMG NEO 16 (E23 / `XNE16E23`), service-manual board family `GM6PXxX`: [official XMG driver downloads](https://download.schenker-tech.de/package/xmg-neo-16-17-e23-xne16e23-xne17e23/).

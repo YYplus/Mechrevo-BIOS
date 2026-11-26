@@ -20,9 +20,8 @@
 |---|---|---|
 | `N.1.09MRO15` | [`GMxPX7xN109MRO15_CAP.EXE`](firmware/GMxPX7xN109MRO15_CAP.EXE) | [机械革命官方](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_10L/GMxPX7xN109MRO15_CAP.EXE) |
 
-## 已知信息
+贡献者： @user5758 ([Issue #1](https://github.com/YYplus/Mechrevo-BIOS/issues/1#issuecomment-6870968083))。
 
-- 该 BIOS 下载地址由机械革命官方提供，对应已知配置为旷世 16 Pro（i9-13900HX + RTX 4060）、主板 `GM6PX0X`。
-- `GMxPX7x` 是官方固件文件名前缀，与设备报告的主板型号 `GM6PX0X` 分别记录。
+## 海外参考
 
 - **海外同平台机型：** XMG NEO 16 (E23 / `XNE16E23`)，服务手册主板系列 `GM6PXxX`：[XMG 官方驱动下载](https://download.schenker-tech.de/package/xmg-neo-16-17-e23-xne16e23-xne17e23/)。

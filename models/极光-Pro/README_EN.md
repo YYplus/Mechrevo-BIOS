@@ -18,8 +18,4 @@
 |---|---|---|
 | `N.1.14MRO19` | [`GMxPG5xN114MRO19_CAP.exe`](firmware/GMxPG5xN114MRO19_CAP.exe) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_8L/GMxPG5xN114MRO19_CAP.EXE) |
 
-## Known information
-
-- Thanks to @baby170303 for providing model, firmware version and vendor download URL information in [Issue #7](https://github.com/YYplus/Mechrevo-BIOS/issues/7).
-- The model year, firmware platform and version are based on the submission. The original binary has been archived; its internal metadata and flashing results have not been independently verified.
-- The missing initial `h` in `https` has been restored in the submitted URL. The reported version `N114MRO19` is recorded as `N.1.14MRO19` according to repository formatting.
+Contributor: @baby170303 ([Issue #7](https://github.com/YYplus/Mechrevo-BIOS/issues/7)).

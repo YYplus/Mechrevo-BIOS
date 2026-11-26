@@ -16,9 +16,3 @@
 | Version | Official ZIP filename | Official source |
 |---|---|---|
 | Unknown | `AfuWin64Cap124.zip` (not yet archived) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/AfuWin64Cap124.zip) |
-
-## Known information
-
-- The download URL points to an official MECHREVO ZIP package, reported by the contributor to contain a BIOS for the Jiaolong 5.
-- The `124` suffix is part of the original filename and is not treated as a confirmed BIOS version. The internal BIOS version and platform have not yet been identified.
-- The original ZIP has not yet been uploaded to the repository.
