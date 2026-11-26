@@ -25,12 +25,14 @@ Do not assume that an earlier chat, an issue title, a filename, or a model-famil
 
 ## 3. Pull request workflow
 
-- Make changes on a dedicated feature branch and submit a Pull Request (PR) to `main`. Do not push directly to `main`, force-push, rewrite history, or delete branches unless the repository owner explicitly requests it.
+- For maintenance tasks requested directly by the repository owner, edit the existing files and commit directly to `main`. Do not create a feature branch or PR unless the owner specifically asks for one.
+- External contributors should use a dedicated feature branch and submit a PR to `main`.
+- Do not force-push, rewrite history, or delete branches unless the repository owner explicitly requests it.
 - Keep each PR focused on one coherent task. Avoid bundling unrelated model updates, documentation redesigns, cleanup, or formatting changes.
 - Before editing, inspect the current branch and working tree. Do not overwrite changes made by the repository owner or another contributor.
 - In a PR, describe what changed, why it changed, which model/platform is affected, and the source of the information or firmware.
 - Do not claim a PR, upload, test, or validation succeeded unless the corresponding operation actually completed and its result was checked.
-- If the available tools cannot create a branch or PR, do not silently substitute direct commits to `main`. Explain the limitation and provide the proposed patch or ask the repository owner to perform that step.
+- If the required workflow cannot be completed with the available tools, explain the limitation. Do not substitute an unauthorized workflow.
 
 ### PR title and commit message conventions
 
