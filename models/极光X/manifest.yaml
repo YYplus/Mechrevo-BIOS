@@ -38,8 +38,8 @@ firmware:
     version: N.2.02MRO23
     release_date: unknown
     original_filename: GMxIR7xN202MRO23_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    binary_path: firmware/GMxIR7xN202MRO23_CAP.EXE
+    file_size: 11294992
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_H55_8L/GMxIR7xN202MRO23_CAP.EXE"
     status:
@@ -48,7 +48,7 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Reported by @baby170303 in Issue #11 (https://github.com/YYplus/Mechrevo-BIOS/issues/11) for Jiguang X (2024), platform GMxIR7x. Contributor reports requesting N.1.06MRO14 from customer support on 2026-11-15 and N.2.02MRO23 on 2026-11-26; these are request dates, not release dates. Binary not yet archived; internal metadata, exact hardware variant and flashing compatibility are unverified."
+    notes: "Reported by @baby170303 in Issue #11 (https://github.com/YYplus/Mechrevo-BIOS/issues/11) for Jiguang X (2024), platform GMxIR7x. Contributor reports requesting N.1.06MRO14 from customer support on 2026-11-15 and N.2.02MRO23 on 2026-11-26; these are request dates, not release dates. Original binary archived; internal metadata, exact hardware variant and flashing compatibility are unverified."
 
   - type: BIOS
     variant: GMxxQxC
@@ -56,8 +56,8 @@ firmware:
     version: N.1.04MRO13
     release_date: unknown
     original_filename: GMxxQxCN104MRO13_CAP.EXE
-    binary_path: unknown
-    file_size: unknown
+    binary_path: firmware/GMxxQxCN104MRO13_CAP.EXE
+    file_size: 10885136
     source_type: official
     source_url: "https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/RPL_Refresh_10L_8LJK16PRO/GMxxQxCN104MRO13_CAP.EXE"
     status:
@@ -66,4 +66,4 @@ firmware:
     tested_on: unknown
     paired_ec: unknown
     paired_bios: null
-    notes: "Reported by @baby170303 in Issue #10 (https://github.com/YYplus/Mechrevo-BIOS/issues/10) for Jiguang X (2024), platform GMxxQxC. Binary not yet archived; internal metadata, exact hardware variant and flashing compatibility are unverified."
+    notes: "Reported by @baby170303 in Issue #10 (https://github.com/YYplus/Mechrevo-BIOS/issues/10) for Jiguang X (2024), platform GMxxQxC. Original binary archived; internal metadata, exact hardware variant and flashing compatibility are unverified."
