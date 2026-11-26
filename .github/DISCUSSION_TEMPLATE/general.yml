@@ -9,22 +9,20 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: source
+    attributes:
+      label: 固件下载链接或附件
+      description: 可粘贴下载链接（优先提供机械革命官方地址），也可将原始固件放入 ZIP 后拖到此处上传。
+
   - type: input
     id: version
     attributes:
       label: BIOS / EC 版本
       placeholder: 例如：N.1.15MRO10
 
-  - type: input
-    id: source
-    attributes:
-      label: 官方下载地址
-      placeholder: https://driver.mechrevo.com/...
-
   - type: textarea
     id: details
     attributes:
       label: 补充信息
       description: 可填写平台标识、适用年份、EC 版本、实际使用情况或其他线索。
-    validations:
-      required: true

@@ -19,7 +19,7 @@ Jiaolong 16 Pro is a continuously updated model series. Different model years an
 | `MRID6-23` (2023) | `MRID6_23_V40` | `MRID6_23_V40.exe` (not archived) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2023/JL16Pro/MRID6_23_V40.exe) |
 | `X6DR5xxK` | `N.1.49MRO58` | [`X6DR5xxKN149MRO58_CAP.EXE`](firmware/X6DR5xxKN149MRO58_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/BIOS/GX_AMDDragon/X6DR5xxKN149MRO58_CAP.EXE) |
 | `X6DR5xxK` | `N.1.40MRO56` | [`X6DR5xxKN140MRO56_CAP.EXE`](firmware/X6DR5xxKN140MRO56_CAP.EXE) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/X6DR5xxKN140MRO56_CAP.EXE) |
-| `X6FR55xx` | `N.1.39MRO55` | `X6FR55xxN139MRO55_CAP.EXE` | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2025/TBIOS/X6FR55xxN139MRO55_CAP.EXE) |
+| `X6FR55xx` | `N.1.39MRO55` | `X6FR55xxN139MRO55_CAP.EXE` (not archived) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2025/TBIOS/X6FR55xxN139MRO55_CAP.EXE) |
 
 ## Known information
 

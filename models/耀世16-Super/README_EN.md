@@ -20,13 +20,13 @@
 |---|---|---|
 | `N.1.10MRO09` | Not yet obtained | `unknown` |
 
-## Firmware lead pending verification
+## Archived firmware linked in the Destroyer report
 
-| Version stated in the post | Firmware file | Official source | Status |
+| BIOS version in the image | Firmware file | Official source | Status |
 |---|---|---|---|
-| `N.1.10MRO10` | [`GMxIX9xN111MRO10_CAP.exe`](firmware/GMxIX9xN111MRO10_CAP.exe) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | Binary archived; version and target platform unconfirmed |
+| `N.1.11MRO10` | [`GMxIX9xN111MRO10_CAP.exe`](firmware/GMxIX9xN111MRO10_CAP.exe) | [MECHREVO](https://driver.mechrevo.com/d.mechrevo.com/driver/MECHREVO2026/BIOS/GMxIX9xN111MRO10_CAP.EXE) | Archived. Target motherboard unconfirmed. |
 
-On 2026-11-26 a firmware lead was received for the Yaoshi 16 Super Destroyer variant (i9-14900HX + RTX 4080). The user reported that an update supplied by customer support resolved blue-screen restarts while playing Phantom Blade in performance mode. The post states `N.1.10MRO10`, whereas the filename indicates `N.1.11MRO10` and the prefix `GMxIX9x`. Neither the internal firmware information nor the reporting device's actual motherboard identifier has been checked. **Compatibility with `GM6IX8B` is not established; confirm with MECHREVO customer support before flashing.** Microcode changes are unknown.
+On 2026-11-26 a firmware lead was received for the Yaoshi 16 Super Destroyer variant (i9-14900HX + RTX 4080). The user reported that an update supplied by customer support resolved blue-screen restarts while playing Phantom Blade in performance mode. The original post lists `N.1.10MRO10`. The archived BIOS image contains the version string `N.1.11MRO10` and the `$FID` project identifier `GMxIX9xN1`. The reporting device’s motherboard identifier remains unconfirmed. **Compatibility with `GM6IX8B` is not established; confirm with MECHREVO customer support before flashing.** Microcode changes are unknown.
 
 ## Known information
 
